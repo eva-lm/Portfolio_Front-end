@@ -16,7 +16,7 @@
   &__nav {
     display: flex;
     justify-content: space-between;
-    width: 45vw;
+    width: 55vw;
     cursor: pointer;
   }
   a {
@@ -34,15 +34,12 @@
   &__title-and-btn {
     align-self: center;
     width: 40vw;
-    margin: 10px;
   }
   &__title {
-    padding-right: 10px;
     font-size: 30px;
     text-transform: uppercase;
     font-family: $fontTitle;
     font-weight: normal;
-    margin-top: 10px;
   }
   &__subtitle {
     font-family: $fontText;
@@ -53,7 +50,7 @@
   &__img-content {
     align-self: flex-end;
     transform: translateY(15vh);
-    padding-left: 20px;
+    padding-left: 5vw;
   }
   &__img {
     height: 70vh;
