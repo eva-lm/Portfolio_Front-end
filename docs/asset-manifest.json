@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.565d570c.chunk.css",
+    "main.js": "./static/js/main.78086c0c.chunk.js",
+    "main.js.map": "./static/js/main.78086c0c.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.c5db20d9.js",
+    "runtime-main.js.map": "./static/js/runtime-main.c5db20d9.js.map",
+    "static/js/2.f751b45e.chunk.js": "./static/js/2.f751b45e.chunk.js",
+    "static/js/2.f751b45e.chunk.js.map": "./static/js/2.f751b45e.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.8d683e13bb696a3a2d1b9685f3cee142.js": "./precache-manifest.8d683e13bb696a3a2d1b9685f3cee142.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.565d570c.chunk.css.map": "./static/css/main.565d570c.chunk.css.map",
+    "static/media/bbva.png": "./static/media/bbva.bc2da103.png",
+    "static/media/bg__.png": "./static/media/bg__.f9f05ca8.png",
+    "static/media/bold-team.png": "./static/media/bold-team.81258d85.png",
+    "static/media/card.png": "./static/media/card.0a3f97cd.png",
+    "static/media/AboutMe.scss": "./static/media/eva.701c2b67.jpg",
+    "static/media/rick.png": "./static/media/rick.4d43668b.png",
+    "static/media/server.png": "./static/media/server.7be6e660.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5db20d9.js",
+    "static/js/2.f751b45e.chunk.js",
+    "static/css/main.565d570c.chunk.css",
+    "static/js/main.78086c0c.chunk.js"
+  ]
+}

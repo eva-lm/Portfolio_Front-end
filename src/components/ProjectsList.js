@@ -8,7 +8,7 @@ import "../stylesheets/layout/Project.scss";
 
 const ProyectsList = props => {
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <ul className="wrapper">
         <h2 className="projects__title">Mis proyectos</h2>
         <li className="project__item">

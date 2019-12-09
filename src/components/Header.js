@@ -8,12 +8,12 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header__nav-content">
-        <nav className="header__nav">
-          <a href="#" alt="about me">
+        <nav className="header__nav" id="header">
+          <a href="#about_me" alt="about me">
             Sobre mí
           </a>
-          <a href="#">Proyectos</a>
-          <a href="#">Contacto</a>
+          <a href="#projects">Proyectos</a>
+          <a href="#contact">Contacto</a>
         </nav>
       </div>
 
@@ -24,7 +24,9 @@ const Header = () => {
         <div className="header__title-and-btn">
           <h1 className="header__title">Eva Lorenzo Mendieta</h1>
           <h2 className="header__subtitle">Front-end Developer</h2>
-          <button className="header__button">Ver mis proyectos</button>
+          <a href="#projects">
+            <button className="header__button">Ver mis proyectos</button>
+          </a>
         </div>
       </div>
       <div className="header__flowers-img-content">

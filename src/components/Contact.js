@@ -36,7 +36,7 @@ class Contact extends React.Component {
   render() {
     const { username, email, message } = this.state;
     return (
-      <section className="form">
+      <section className="form" id="contact">
         <div className="bg-container">
           <h2 className="form__title">Ponte en contacto conmigo</h2>
           <form

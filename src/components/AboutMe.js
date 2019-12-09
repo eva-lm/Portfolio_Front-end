@@ -4,7 +4,7 @@ import "../stylesheets/components/_buttons.scss";
 
 const AboutMe = () => {
   return (
-    <section className="about">
+    <section className="about" id="about_me">
       <div className="bg-container">
         <h3 className="about__title">¡Hola!</h3>
         <div className="about__me-content">
@@ -56,7 +56,9 @@ const AboutMe = () => {
           </div>
         </div>
         <div class="about__content-btn">
-          <button className="about__button">Ponte en contacto conmigo</button>
+          <a href="#contact">
+            <button className="about__button">Ponte en contacto conmigo</button>
+          </a>
         </div>
       </div>
     </section>

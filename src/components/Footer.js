@@ -6,8 +6,11 @@ const Footer = () => {
   return (
     <footer className="footer">
       <button className="footer__up">
-        <i className="fas fa-angle-up"></i>
+        <a href="#header">
+          <i className="fas fa-angle-up"></i>
+        </a>
       </button>
+
       <div className="footer__info-container">
         <div className="footer__content">
           <a
