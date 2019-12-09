@@ -16,7 +16,7 @@
   &__nav {
     display: flex;
     justify-content: space-between;
-    width: 250px;
+    width: 45vw;
     cursor: pointer;
   }
   a {
@@ -52,20 +52,20 @@
   }
   &__img-content {
     align-self: flex-end;
-    transform: translateY(100px);
+    transform: translateY(15vh);
     padding-left: 20px;
   }
   &__img {
-    height: 600px;
-    width: 240px;
+    height: 70vh;
+    width: 47vw;
     box-shadow: rgba(57, 57, 57, 0.24) 4px 3px 4px 6px;
   }
   &__flowers-img-content {
-    padding-left: 251px;
+    padding-left: 50%;
     padding-top: 22px;
   }
   &__img-flowers {
-    height: 160px;
+    height: 20vh;
   }
 }
 
