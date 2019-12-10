@@ -6,22 +6,22 @@ const AboutMe = () => {
   return (
     <section className="about" id="about_me">
       <div className="bg-container">
-        <h3 className="about__title">¡Hola!</h3>
-        <div className="about__me-content">
-          <p className="about__text">
-            Soy Eva, desarrolladora front-end junior con ganas de ampliar mis
-            conocimientos en el mundo de la programación. Me considero una
-            persona creativa, resolutiva, con actitud positiva y habilidades
-            para el trabajo en equipo. Mi capacidad de autoaprendizaje y
-            superación en el día a día ofrecen buenos resultados en poco tiempo,
-            gestionando muy bien el estrés ante situaciones adversas.
-          </p>
-          <div className="about__circle"></div>
-        </div>
+        <div className="wrapper-skills">
+          <h3 className="about__title">¡Hola!</h3>
+          <div className="about__me-content">
+            <p className="about__text">
+              Soy Eva, desarrolladora front-end junior con ganas de ampliar mis
+              conocimientos en el mundo de la programación. Me considero una
+              persona creativa, resolutiva, con actitud positiva y habilidades
+              para el trabajo en equipo. Mi capacidad de autoaprendizaje y
+              superación en el día a día ofrecen buenos resultados en poco
+              tiempo, gestionando muy bien el estrés ante situaciones adversas.
+            </p>
+            <div className="about__circle"></div>
+          </div>
 
-        <div className="about__skills-content">
-          <h3 className="about__title">¿Qué puedo hacer?</h3>
-          <div className="wrapper-skills">
+          <div className="about__skills-content">
+            <h3 className="about__title">¿Qué puedo hacer?</h3>
             <h4 className="about__section-title-skill">Diseño web</h4>
             <div className="about__skill-content">
               <p className="about__text-skills">

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.22828ff4.chunk.css",
-    "main.js": "./static/js/main.78086c0c.chunk.js",
-    "main.js.map": "./static/js/main.78086c0c.chunk.js.map",
+    "main.css": "./static/css/main.ba7916e7.chunk.css",
+    "main.js": "./static/js/main.78ac39b1.chunk.js",
+    "main.js.map": "./static/js/main.78ac39b1.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c5db20d9.js",
     "runtime-main.js.map": "./static/js/runtime-main.c5db20d9.js.map",
     "static/js/2.f751b45e.chunk.js": "./static/js/2.f751b45e.chunk.js",
     "static/js/2.f751b45e.chunk.js.map": "./static/js/2.f751b45e.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.cf9d29a4527d54c68f14ddd4aae76682.js": "./precache-manifest.cf9d29a4527d54c68f14ddd4aae76682.js",
+    "precache-manifest.680c3406690cb1e4e24eb28f5b2815b1.js": "./precache-manifest.680c3406690cb1e4e24eb28f5b2815b1.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.22828ff4.chunk.css.map": "./static/css/main.22828ff4.chunk.css.map",
+    "static/css/main.ba7916e7.chunk.css.map": "./static/css/main.ba7916e7.chunk.css.map",
     "static/media/bbva.png": "./static/media/bbva.bc2da103.png",
     "static/media/bg__.png": "./static/media/bg__.f9f05ca8.png",
     "static/media/bold-team.png": "./static/media/bold-team.81258d85.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.c5db20d9.js",
     "static/js/2.f751b45e.chunk.js",
-    "static/css/main.22828ff4.chunk.css",
-    "static/js/main.78086c0c.chunk.js"
+    "static/css/main.ba7916e7.chunk.css",
+    "static/js/main.78ac39b1.chunk.js"
   ]
 }
