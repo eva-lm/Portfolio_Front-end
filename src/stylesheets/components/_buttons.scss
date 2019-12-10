@@ -2,11 +2,11 @@
 
 .header__button {
   margin-top: 8vh;
-  font-size: 16px;
+  font-size: 12px;
+  background: transparent;
   color: $colorBlue;
   font-family: $fontTitle;
-  padding: 8px 10px;
-  margin-bottom: 5px;
+  padding: 4px 6px;
   border: 1px solid $colorBlue;
   transition: all 2s;
   cursor: pointer;
@@ -16,11 +16,12 @@
   background-color: $colorBlue;
 }
 .about__button {
+  font-size: 9px;
+  background: transparent;
   color: $colorBlue;
   font-family: $fontTitle;
-  font-size: 13px;
-  padding: 5px 3px;
-  margin-bottom: 5px;
+  padding: 4px 6px;
+  margin: 3px;
   border: 1px solid $colorBlue;
   transition: all 2s;
   cursor: pointer;
@@ -31,11 +32,11 @@
 }
 .form__button {
   width: 200px;
+  font-size: 12px;
+  background: transparent;
   color: $colorBlue;
   font-family: $fontTitle;
-  font-size: 13px;
-  padding: 5px 3px;
-  margin-bottom: 5px;
+  padding: 4px 6px;
   border: 1px solid $colorBlue;
   transition: all 2s;
   cursor: pointer;

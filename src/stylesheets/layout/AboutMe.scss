@@ -1,15 +1,15 @@
 @import "../components/_variables";
 
 .fa-sass {
-  font-size: 30px;
+  font-size: 24px;
   color: $colorBlue;
 }
 .fa-js-square {
-  font-size: 30px;
+  font-size: 24px;
   color: $colorBlue;
 }
 .fa-react {
-  font-size: 30px;
+  font-size: 24px;
   color: $colorBlue;
 }
 
@@ -34,9 +34,9 @@
     &__title {
       font-family: $fontTitle;
       text-align: center;
-      font-size: 20px;
+      font-size: 16px;
       color: $colorBlue;
-      margin: 20px 0px;
+      margin: 10px 0px;
       font-weight: lighter;
     }
     &__me-content {
@@ -46,24 +46,24 @@
     }
     &__text {
       font-family: $fontTitle;
-      font-size: 12px;
+      font-size: 10px;
       text-align: justify;
     }
     &__text-skills {
       width: 70%;
       font-family: $fontTitle;
-      font-size: 11px;
+      font-size: 9px;
     }
     &__skill-content {
       display: flex;
       justify-content: space-between;
       align-items: center;
       margin-bottom: 5px;
-      padding: 5px;
+      padding: 5px 0px;
     }
     &__small-circle {
-      height: 55px;
-      width: 55px;
+      height: 40px;
+      width: 40px;
       border-radius: 50%;
       border: 1px solid $colorGreen;
       display: flex;
@@ -72,12 +72,12 @@
     }
     &__section-title-skill {
       display: inline;
-      padding: 4px 7px;
+      padding: 2px 4px;
       background-color: $colorBlue;
       color: $colorLight;
       font-family: $fontTitle;
       border-radius: 15px;
-      font-size: 14px;
+      font-size: 10px;
       font-weight: normal;
     }
     &__content-btn {

@@ -1,8 +1,8 @@
 import React from "react";
 import "../stylesheets/layout/Header.scss";
 import "../stylesheets/components/_buttons.scss";
-import hero from "../images/bg__.png";
-import flowers from "../images/_6.png";
+import hero from "../images/_9.png";
+import flowers from "../images/_11.png";
 
 const Header = () => {
   return (
@@ -10,9 +10,11 @@ const Header = () => {
       <div className="header__nav-content">
         <nav className="header__nav" id="header">
           <a href="#about_me" alt="about me">
-            Sobre mí
+            Sobre mí <i class="fas fa-circle"></i>
           </a>
-          <a href="#projects">Proyectos</a>
+          <a href="#projects">
+            Proyectos <i class="fas fa-circle"></i>
+          </a>
           <a href="#contact">Contacto</a>
         </nav>
       </div>
