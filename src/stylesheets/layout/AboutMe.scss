@@ -29,7 +29,6 @@
       height: 10vh;
       width: 10vh;
       border-radius: 50%;
-      margin-top: 15px;
     }
     &__title {
       font-family: $fontTitle;
@@ -81,10 +80,7 @@
       font-weight: normal;
     }
     &__content-btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 10px;
+      text-align: center;
     }
   }
 }
@@ -97,7 +93,7 @@
   background-color: $colorLight;
   height: 95vh;
   box-shadow: rgba(57, 57, 57, 0.24) 4px 3px 4px 6px;
-  padding: 30px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
