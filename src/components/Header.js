@@ -1,8 +1,6 @@
 import React from "react";
 import "../stylesheets/layout/Header.scss";
 import "../stylesheets/components/_buttons.scss";
-import hero from "../images/_9.png";
-import flowers from "../images/_11.png";
 
 const Header = () => {
   return (
@@ -21,7 +19,7 @@ const Header = () => {
 
       <div className="header__info-content">
         <div className="header__img-content">
-          <img className="header__img" src={hero} alt="header image" />
+          <img className="header__img" src="" alt="header image" />
         </div>
         <div className="header__title-and-btn">
           <h1 className="header__title">Eva Lorenzo Mendieta</h1>
@@ -32,11 +30,7 @@ const Header = () => {
         </div>
       </div>
       <div className="header__flowers-img-content">
-        <img
-          className="header__img-flowers"
-          src={flowers}
-          alt="flowers image"
-        />
+        <img className="header__img-flowers" src="" alt="flowers image" />
       </div>
     </header>
   );

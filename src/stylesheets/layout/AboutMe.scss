@@ -1,87 +1,71 @@
 @import "../components/_variables";
 
-.fa-sass {
-  font-size: 24px;
-  color: $colorBlue;
-}
-.fa-js-square {
-  font-size: 24px;
-  color: $colorBlue;
-}
-.fa-react {
-  font-size: 24px;
-  color: $colorBlue;
-}
+.about {
+  padding: 0px 50px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: $colorBlue;
 
-@media all and (max-width: 640px) and (min-width: 320px) {
-  .about {
-    padding: 0px 50px;
-    height: 100vh;
+  &__circle {
+    background-image: url(../../images/eva.jpg);
+    background-size: cover;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  &__title {
+    font-family: $fontTitle;
+    text-align: center;
+    font-size: 16px;
+    color: $colorBlue;
+    margin: 10px 5px;
+    font-weight: lighter;
+  }
+  &__me-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  &__text {
+    font-family: $fontTitle;
+    font-size: 9px;
+    text-align: justify;
+  }
+  &__text-skills {
+    width: 70%;
+    font-family: $fontTitle;
+    font-size: 9px;
+    margin-top: 10px;
+  }
+  &__skill-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px 0px;
+  }
+  &__small-circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid $colorGreen;
+    display: flex;
+    align-items: center;
     justify-content: center;
+  }
+  &__section-title-skill {
+    padding: 2px 4px;
     background-color: $colorBlue;
-
-    &__circle {
-      background-image: url(../../images/eva.jpg);
-      background-size: cover;
-      height: 10vh;
-      width: 10vh;
-      border-radius: 50%;
-    }
-    &__title {
-      font-family: $fontTitle;
-      text-align: center;
-      font-size: 16px;
-      color: $colorBlue;
-      margin: 10px 0px;
-      font-weight: lighter;
-    }
-    &__me-content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    &__text {
-      font-family: $fontTitle;
-      font-size: 10px;
-      text-align: justify;
-    }
-    &__text-skills {
-      width: 70%;
-      font-family: $fontTitle;
-      font-size: 9px;
-    }
-    &__skill-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 5px;
-      padding: 5px 0px;
-    }
-    &__small-circle {
-      height: 40px;
-      width: 40px;
-      border-radius: 50%;
-      border: 1px solid $colorGreen;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    &__section-title-skill {
-      display: inline;
-      padding: 2px 4px;
-      background-color: $colorBlue;
-      color: $colorLight;
-      font-family: $fontTitle;
-      border-radius: 15px;
-      font-size: 10px;
-      font-weight: normal;
-    }
-    &__content-btn {
-      text-align: center;
-    }
+    color: $colorLight;
+    font-family: $fontTitle;
+    border-radius: 15px;
+    font-size: 11px;
+    font-weight: normal;
+  }
+  &__content-btn {
+    text-align: center;
   }
 }
 .wrapper-skills {
@@ -95,133 +79,105 @@
   box-shadow: rgba(57, 57, 57, 0.24) 4px 3px 4px 6px;
   padding: 15px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
+}
+.fa-sass {
+  font-size: 24px;
+  color: $colorBlue;
+}
+.fa-js-square {
+  font-size: 24px;
+  color: $colorBlue;
+}
+.fa-react {
+  font-size: 24px;
+  color: $colorBlue;
 }
 
 @media all and (max-width: 1024px) and (min-width: 640px) {
   .about {
-    padding: 90px 150px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    &__me-content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+    padding: 0px 50px;
     &__circle {
-      background-image: url(../../images/eva.jpg);
-      background-size: cover;
-      height: 200px;
-      width: 200px;
-      border-radius: 50%;
+      height: 11vh;
+      width: 11vh;
     }
     &__title {
-      text-align: center;
-      padding: 10px;
-      font-family: $fontText;
-      font-size: 22px;
-      color: $colorGray;
-    }
-    &__text {
-      margin-top: 0px;
-      min-width: 550px;
-      font-family: $fontTitle;
       font-size: 18px;
     }
+    &__text {
+      font-size: 11px;
+    }
     &__text-skills {
-      width: 300px;
-      font-family: $fontTitle;
-      font-size: 14px;
+      font-size: 11px;
+      margin-top: 15px;
     }
     &__skill-content {
-      display: flex;
-      justify-content: space-between;
-      min-width: 420px;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
     }
     &__small-circle {
-      height: 80px;
-      width: 80px;
-      border-radius: 50%;
-      margin: 15px;
-      border: 1px solid $colorGray;
+      height: 45px;
+      width: 45px;
     }
     &__section-title-skill {
-      margin-left: 118px;
-      display: inline;
-      padding: 3px 6px;
-      background-color: $colorBlue;
-      color: $colorLight;
-      font-family: $fontTitle;
-      font-size: 17.5px;
-      border-radius: 15px;
-      font-weight: normal;
+      font-size: 12px;
     }
   }
+  .fa-sass {
+    font-size: 25px;
+    color: $colorBlue;
+  }
+  .fa-js-square {
+    font-size: 25px;
+    color: $colorBlue;
+  }
+  .fa-react {
+    font-size: 25px;
+    color: $colorBlue;
+  }
 }
-
 @media all and (min-width: 1024px) {
   .about {
-    padding: 90px 250px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    &__me-content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+    padding: 0px 50px;
     &__circle {
-      background-image: url(../../images/eva.jpg);
-      background-size: cover;
-      height: 200px;
-      width: 200px;
-      border-radius: 50%;
+      height: 12vh;
+      width: 12vh;
     }
     &__title {
-      text-align: center;
-      padding: 10px;
-      font-family: $fontText;
-      font-size: 22px;
-      color: $colorGray;
+      font-size: 20px;
     }
     &__text {
-      margin-top: 0px;
-      min-width: 700px;
-      font-family: $fontTitle;
-      font-size: 18px;
+      font-size: 12px;
     }
     &__text-skills {
-      width: 650px;
-      font-family: $fontTitle;
-      font-size: 14px;
+      font-size: 12px;
+      margin-top: 15px;
     }
     &__skill-content {
-      display: flex;
-      justify-content: space-between;
-      min-width: 800px;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
     }
     &__small-circle {
-      height: 90px;
-      width: 90px;
-      border-radius: 50%;
-      margin: 15px;
-      border: 1px solid $colorGray;
+      height: 50px;
+      width: 50px;
     }
     &__section-title-skill {
-      margin-left: 150px;
-      display: inline;
-      padding: 3px 6px;
-      background-color: $colorBlue;
-      color: $colorLight;
-      font-family: $fontTitle;
-      border-radius: 15px;
-      font-weight: normal;
+      font-size: 12px;
+      width: 15%;
+      text-align: center;
     }
+  }
+  .bg-container {
+    padding: 30px 60px;
+  }
+  .fa-sass {
+    font-size: 26px;
+    color: $colorBlue;
+  }
+  .fa-js-square {
+    font-size: 26px;
+    color: $colorBlue;
+  }
+  .fa-react {
+    font-size: 26px;
+    color: $colorBlue;
   }
 }

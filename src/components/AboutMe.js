@@ -54,11 +54,13 @@ const AboutMe = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div class="about__content-btn">
-          <a href="#contact">
-            <button className="about__button">Ponte en contacto conmigo</button>
-          </a>
+          <div class="about__content-btn">
+            <a href="#contact">
+              <button className="about__button">
+                Ponte en contacto conmigo
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </section>

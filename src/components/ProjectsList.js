@@ -9,8 +9,8 @@ import "../stylesheets/layout/Project.scss";
 const ProyectsList = props => {
   return (
     <section className="projects" id="projects">
+      <h2 className="projects__title">Mis proyectos</h2>
       <ul className="wrapper">
-        <h2 className="projects__title">Mis proyectos</h2>
         <li className="project__item">
           <div className="project__content">
             <h2 className="project__title">Widget del tiempo para BBVA-IT</h2>
