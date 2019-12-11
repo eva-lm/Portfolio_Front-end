@@ -45,27 +45,3 @@
   color: $colorLight;
   background-color: $colorBlue;
 }
-
-.footer__up {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  transform: translateY(-3px);
-  background-color: $colorGreen;
-  border: 1px solid $colorGreen;
-  transition: all 3s;
-  cursor: pointer;
-}
-.footer__up:hover {
-  background-color: $colorBlue;
-  cursor: pointer;
-  transform: scale(1.1);
-}
-
-.fa-angle-up {
-  color: $colorLight;
-  font-size: 26px;
-}
