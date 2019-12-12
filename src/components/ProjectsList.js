@@ -4,6 +4,7 @@ import bold from "../images/projects/bold-team.png";
 import card from "../images/projects/card.png";
 import rick from "../images/projects/rick.png";
 import server from "../images/projects/server.png";
+import pingpong from "../images/projects/muestra.png";
 import "../stylesheets/layout/Project.scss";
 
 const ProyectsList = props => {
@@ -158,6 +159,35 @@ const ProyectsList = props => {
               </a>
             </div>
             <p className="project__languages">SASS</p>
+          </div>
+        </li>
+        <li className="project__item">
+          <div className="project__content">
+            <h2 className="project__title">Ping-pong game</h2>
+            <img src={pingpong} alt="tilte" className="project__img" />
+            <p className="project__description">
+              Juego de ping pong utilizando el framework Phaser, basado en el
+              lenguaje de programación javascript.
+            </p>
+            <div className="project_links-content">
+              <a
+                className="about__button"
+                href="https://eva-lm.github.io/Ping-pong_game/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Ver proyecto
+              </a>
+              <a
+                className="about__button"
+                href="https://github.com/eva-lm/Ping-pong_game"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Ir al respositorio en gitHub
+              </a>
+            </div>
+            <p className="project__languages">Phaser</p>
           </div>
         </li>
       </ul>
