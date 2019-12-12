@@ -25,10 +25,10 @@
     height: 70vh;
     color: $colorBlue;
     background-color: $colorLight;
-    background-image: url("../../images/_9.png");
-    background-size: contain;
-    background-position: left;
-    background-repeat: no-repeat;
+    // background-image: url("../../images/_9.png");
+    // background-size: contain;
+    // background-position: left;
+    // background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -57,10 +57,10 @@
     height: 20vh;
   }
   &__flowers-img {
-    background-image: url("../../images/_11.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    // background-image: url("../../images/_11.png");
+    // background-size: contain;
+    // background-position: center;
+    // background-repeat: no-repeat;
     width: 45%;
   }
 }
@@ -75,10 +75,10 @@
       font-size: 11px;
     }
     &__info-content {
-      background-image: url("../../images/_9.png");
-      background-size: contain;
-      background-position: left;
-      background-repeat: repeat;
+      // background-image: url("../../images/_9.png");
+      // background-size: contain;
+      // background-position: left;
+      // background-repeat: repeat;
       display: flex;
       align-items: flex-end;
       justify-content: center;
@@ -105,10 +105,10 @@
       height: 20vh;
     }
     &__flowers-img {
-      background-image: url("../../images/_11.png");
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
+      // background-image: url("../../images/_11.png");
+      // background-size: contain;
+      // background-position: center;
+      // background-repeat: no-repeat;
       width: 45%;
     }
   }
