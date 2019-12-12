@@ -22,44 +22,46 @@
     color: rgb(245, 242, 242);
   }
   &__info-content {
-    display: flex;
-    justify-content: space-evenly;
     height: 70vh;
-    width: 100vw;
     color: $colorBlue;
     background-color: $colorLight;
+    background-image: url("../../images/_9.png");
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
   }
   &__title-and-btn {
-    align-self: center;
-    width: 40vw;
+    width: 150px;
+    text-align: end;
+    padding: 20px;
   }
   &__title {
-    font-size: 22px;
+    font-size: 14px;
     text-transform: uppercase;
     font-family: $fontTitle;
     font-weight: normal;
-    margin-top: 20px;
   }
   &__subtitle {
     font-family: $fontText;
-    font-size: 18px;
+    font-size: 10.5px;
     font-weight: normal;
-    margin-top: 10px;
+    margin-top: 5px;
   }
-  &__img-content {
-    margin-top: 15px;
-    display: flex;
-    align-items: center;
-  }
-  &__img {
-    height: 80%;
-  }
+
   &__flowers-img-content {
     display: flex;
     justify-content: center;
+    height: 20vh;
   }
-  &__img-flowers {
-    height: 45%;
+  &__flowers-img {
+    background-image: url("../../images/_11.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 45%;
   }
 }
 .fa-circle {
@@ -70,36 +72,44 @@
 @media all and (max-width: 1024px) and (min-width: 640px) {
   .header {
     &__nav-content {
-      height: 44px;
       font-size: 11px;
     }
     &__info-content {
-      padding: 0px 30px;
+      background-image: url("../../images/_9.png");
+      background-size: contain;
+      background-position: left;
+      background-repeat: repeat;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
     }
     &__title-and-btn {
-      width: 45vw;
+      width: 550px;
+      padding: 45px;
+      background-color: $colorLight;
+      height: 100%;
+      border-left: 1px solid $colorBlue;
+      border-right: 1px solid $colorBlue;
+      border-top: 1px solid $colorBlue;
     }
     &__title {
-      font-size: 24px;
-      margin-top: 20px;
+      font-size: 18px;
     }
     &__subtitle {
-      font-size: 20px;
-    }
-    &__img-content {
-      margin-top: 15px;
-      display: flex;
-      align-items: center;
-    }
-    &__img {
-      height: 80%;
+      font-size: 14px;
+      margin-top: 8px;
     }
     &__flowers-img-content {
       display: flex;
       justify-content: center;
+      height: 20vh;
     }
-    &__img-flowers {
-      height: 45%;
+    &__flowers-img {
+      background-image: url("../../images/_11.png");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 45%;
     }
   }
   .fa-circle {
