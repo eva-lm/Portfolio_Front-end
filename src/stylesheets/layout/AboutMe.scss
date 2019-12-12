@@ -42,7 +42,7 @@
   &__skills-content {
     display: flex;
     flex-direction: column;
-    margin-bottom: 5px;
+    justify-self: center;
     padding: 5px 0px;
   }
   &__small-circle {
@@ -78,6 +78,8 @@
   grid-gap: 5px;
 }
 .bg-container {
+  display: flex;
+  justify-content: space-around;
   background-color: $colorLight;
   height: 95vh;
   box-shadow: rgba(57, 57, 57, 0.24) 4px 3px 4px 6px;
@@ -111,9 +113,7 @@
     &__text-skills {
       font-size: 11px;
     }
-    &__skill-content {
-      margin-bottom: 10px;
-    }
+
     &__small-circle {
       height: 45px;
       width: 45px;
@@ -151,9 +151,7 @@
       font-size: 13px;
       max-width: 90%;
     }
-    &__skill-content {
-      margin-bottom: 10px;
-    }
+
     &__small-circle {
       height: 50px;
       width: 50px;
@@ -162,6 +160,10 @@
       font-size: 12px;
       width: 15%;
       text-align: center;
+    }
+    &__skill-description {
+      padding: 10px;
+      display: flex;
     }
   }
   .bg-container {

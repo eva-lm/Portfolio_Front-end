@@ -21,8 +21,8 @@ const AboutMe = () => {
             <div className="about__circle"></div>
           </div>
 
+          <h3 className="about__title">¿Qué puedo hacer?</h3>
           <div className="about__skills-content">
-            <h3 className="about__title">¿Qué puedo hacer?</h3>
             <h4 className="about__section-title-skill">Diseño web</h4>
             <div className="about__skill-description">
               <p className="about__text-skills">
