@@ -24,7 +24,7 @@ const AboutMe = () => {
           <div className="about__skills-content">
             <h3 className="about__title">¿Qué puedo hacer?</h3>
             <h4 className="about__section-title-skill">Diseño web</h4>
-            <div className="about__skill-content">
+            <div className="about__skill-description">
               <p className="about__text-skills">
                 Me encanta el diseño y la maquetación web. Cuento con
                 conocimientos en HTML5, CSS3, SASS y Bootstrap, enfocados en el
@@ -35,7 +35,7 @@ const AboutMe = () => {
               </div>
             </div>
             <h4 className="about__section-title-skill">JavaScript</h4>
-            <div className="about__skill-content">
+            <div className="about__skill-description">
               <p className="about__text-skills">
                 También puedo añadir funcionalidad y convertir un bonito diseño
                 web en una página dinámica con JavaScript.
@@ -45,7 +45,7 @@ const AboutMe = () => {
               </div>
             </div>
             <h4 className="about__section-title-skill">React</h4>
-            <div className="about__skill-content">
+            <div className="about__skill-description">
               <p className="about__text-skills">
                 Además, cuento con conocimientos en la librería React.js creando
                 componentes para estructurar la web.
