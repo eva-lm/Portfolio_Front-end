@@ -25,18 +25,25 @@
     height: 70vh;
     color: $colorBlue;
     background-color: $colorLight;
-    // background-image: url("../../images/_9.png");
-    // background-size: contain;
-    // background-position: left;
-    // background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
   }
+  &__img-content {
+    //margin-left: 20px;
+    align-self: flex-start;
+    height: 70vh;
+    width: 60%;
+    background-image: url("../../images/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    // box-shadow: rgba(57, 57, 57, 0.24) 4px 3px 4px 6px;
+  }
+
   &__title-and-btn {
-    width: 150px;
-    text-align: end;
-    padding: 20px;
+    min-width: 150px;
+    padding: 15px;
   }
   &__title {
     font-size: 14px;
@@ -52,16 +59,11 @@
   }
 
   &__flowers-img-content {
-    display: flex;
-    justify-content: center;
     height: 20vh;
-  }
-  &__flowers-img {
-    // background-image: url("../../images/_11.png");
-    // background-size: contain;
-    // background-position: center;
-    // background-repeat: no-repeat;
-    width: 45%;
+    background-image: url("../../images/flower.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 .fa-circle {
@@ -83,6 +85,12 @@
       align-items: flex-end;
       justify-content: center;
     }
+    &__img-content {
+      background-color: lightcoral;
+    }
+    &__img {
+      height: 200px;
+    }
     &__title-and-btn {
       width: 550px;
       padding: 45px;
@@ -102,14 +110,14 @@
     &__flowers-img-content {
       display: flex;
       justify-content: center;
-      height: 20vh;
+      //height: 20vh;
     }
-    &__flowers-img {
+    &__img-flowers {
       // background-image: url("../../images/_11.png");
       // background-size: contain;
       // background-position: center;
       // background-repeat: no-repeat;
-      width: 45%;
+      //width: 45%;
     }
   }
   .fa-circle {
