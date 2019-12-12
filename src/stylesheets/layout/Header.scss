@@ -30,15 +30,12 @@
     justify-content: center;
   }
   &__img-content {
-    //margin-left: 20px;
-    align-self: flex-start;
     height: 70vh;
     width: 60%;
     background-image: url("../../images/bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    // box-shadow: rgba(57, 57, 57, 0.24) 4px 3px 4px 6px;
   }
 
   &__title-and-btn {
@@ -76,92 +73,69 @@
     &__nav-content {
       font-size: 11px;
     }
-    &__info-content {
-      // background-image: url("../../images/_9.png");
-      // background-size: contain;
-      // background-position: left;
-      // background-repeat: repeat;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-    }
     &__img-content {
-      background-color: lightcoral;
-    }
-    &__img {
-      height: 200px;
+      background-image: url("../../images/bg-tablet.png");
+      background-size: contain;
+      background-position: center;
     }
     &__title-and-btn {
-      width: 550px;
-      padding: 45px;
-      background-color: $colorLight;
-      height: 100%;
-      border-left: 1px solid $colorBlue;
-      border-right: 1px solid $colorBlue;
-      border-top: 1px solid $colorBlue;
+      align-self: flex-end;
+      margin-bottom: 20px;
     }
     &__title {
-      font-size: 18px;
+      font-size: 16px;
     }
     &__subtitle {
       font-size: 14px;
-      margin-top: 8px;
     }
     &__flowers-img-content {
-      display: flex;
-      justify-content: center;
-      //height: 20vh;
-    }
-    &__img-flowers {
-      // background-image: url("../../images/_11.png");
-      // background-size: contain;
-      // background-position: center;
-      // background-repeat: no-repeat;
-      //width: 45%;
+      background-image: url("../../images/flowersBlue.png");
+      background-size: contain;
+      background-position: right;
     }
   }
   .fa-circle {
-    font-size: 6px;
-    margin: 5px;
+    font-size: 7px;
   }
 }
 @media all and (min-width: 1024px) {
   .header {
     &__nav-content {
-      height: 44px;
-      font-size: 11px;
+      font-size: 14px;
+      padding-right: 15px;
     }
     &__info-content {
-      padding: 0px 30px;
-    }
-    &__title-and-btn {
-      width: 45vw;
-    }
-    &__title {
-      font-size: 24px;
-      margin-top: 20px;
-    }
-    &__subtitle {
-      font-size: 20px;
+      justify-content: space-between;
     }
     &__img-content {
-      margin-top: 15px;
-      display: flex;
-      align-items: center;
+      background-image: url("../../images/bg-pc-10.png");
+      background-size: cover;
+      background-position: center;
+      box-shadow: rgba(57, 57, 57, 0.24) 6px 3px 6px 0px;
     }
-    &__img {
-      height: 80%;
+    &__title-and-btn {
+      align-self: flex-end;
+      margin-bottom: 20px;
+      width: 40%;
+      padding-left: 80px;
+    }
+    &__title {
+      font-size: 22px;
+    }
+    &__subtitle {
+      text-align: left;
+      font-size: 22px;
     }
     &__flowers-img-content {
-      display: flex;
-      justify-content: center;
-    }
-    &__img-flowers {
-      height: 45%;
+      align-self: flex-end;
+      background-image: url("../../images/flowersBlue.png");
+      background-size: contain;
+      background-position: center;
+      width: 50%;
+      height: 25vh;
     }
   }
   .fa-circle {
-    font-size: 6px;
-    margin: 5px;
+    font-size: 7px;
   }
 }

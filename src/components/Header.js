@@ -21,7 +21,7 @@ const Header = () => {
         <div className="header__img-content"></div>
         <div className="header__title-and-btn">
           <h1 className="header__title">Eva Lorenzo Mendieta</h1>
-          <h2 className="header__subtitle">Front-end Developer</h2>
+          <h1 className="header__subtitle">Front-end Developer</h1>
           <a href="#projects">
             <button className="header__button">Ver mis proyectos</button>
           </a>

@@ -16,6 +16,7 @@ const AboutMe = () => {
               para el trabajo en equipo. Mi capacidad de autoaprendizaje y
               superación en el día a día ofrecen buenos resultados en poco
               tiempo, gestionando muy bien el estrés ante situaciones adversas.
+              Siempre con ganas de aprender y dar lo mejor de mí.
             </p>
             <div className="about__circle"></div>
           </div>
@@ -46,8 +47,8 @@ const AboutMe = () => {
             <h4 className="about__section-title-skill">React</h4>
             <div className="about__skill-content">
               <p className="about__text-skills">
-                Y tambien cuento con conocimientos en la librería React.js,
-                creando componentes para estructurar la web.
+                Además, cuento con conocimientos en la librería React.js creando
+                componentes para estructurar la web.
               </p>
               <div className="about__small-circle">
                 <i className="fab fa-react"></i>

@@ -2,10 +2,6 @@
 
 .projects {
   padding: 0px 50px;
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
-  // justify-content: center;
   background-color: $colorBlue;
 }
 .projects__title {
@@ -128,7 +124,7 @@ a {
     height: 200px;
   }
   .project__description {
-    font-size: 12px;
+    font-size: 13px;
     padding: 10px;
   }
   .project__languages {

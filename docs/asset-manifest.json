@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.0dc93900.chunk.css",
-    "main.js": "./static/js/main.6b9637bd.chunk.js",
-    "main.js.map": "./static/js/main.6b9637bd.chunk.js.map",
+    "main.css": "./static/css/main.d90a7907.chunk.css",
+    "main.js": "./static/js/main.47f5a4ff.chunk.js",
+    "main.js.map": "./static/js/main.47f5a4ff.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c5db20d9.js",
     "runtime-main.js.map": "./static/js/runtime-main.c5db20d9.js.map",
     "static/js/2.3a005068.chunk.js": "./static/js/2.3a005068.chunk.js",
     "static/js/2.3a005068.chunk.js.map": "./static/js/2.3a005068.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.71eada33f7eeab6743918f786b0238ae.js": "./precache-manifest.71eada33f7eeab6743918f786b0238ae.js",
+    "precache-manifest.0ff9881cf30f80fbf5624efebb096f83.js": "./precache-manifest.0ff9881cf30f80fbf5624efebb096f83.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.0dc93900.chunk.css.map": "./static/css/main.0dc93900.chunk.css.map",
+    "static/css/main.d90a7907.chunk.css.map": "./static/css/main.d90a7907.chunk.css.map",
     "static/media/bbva.png": "./static/media/bbva.bc2da103.png",
-    "static/media/Header.scss": "./static/media/flower.21048730.png",
+    "static/media/Header.scss": "./static/media/flowersBlue.e5d461ae.png",
     "static/media/bold-team.png": "./static/media/bold-team.81258d85.png",
     "static/media/card.png": "./static/media/card.0a3f97cd.png",
     "static/media/AboutMe.scss": "./static/media/eva.701c2b67.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.c5db20d9.js",
     "static/js/2.3a005068.chunk.js",
-    "static/css/main.0dc93900.chunk.css",
-    "static/js/main.6b9637bd.chunk.js"
+    "static/css/main.d90a7907.chunk.css",
+    "static/js/main.47f5a4ff.chunk.js"
   ]
 }
