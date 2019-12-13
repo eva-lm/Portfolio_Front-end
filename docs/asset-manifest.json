@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.c65f6261.chunk.css",
+    "main.css": "./static/css/main.8d45a207.chunk.css",
     "main.js": "./static/js/main.8e03e591.chunk.js",
     "main.js.map": "./static/js/main.8e03e591.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c5db20d9.js",
@@ -8,9 +8,9 @@
     "static/js/2.b031a5d8.chunk.js": "./static/js/2.b031a5d8.chunk.js",
     "static/js/2.b031a5d8.chunk.js.map": "./static/js/2.b031a5d8.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.1c261d267f71aef784d7f6dc9e061899.js": "./precache-manifest.1c261d267f71aef784d7f6dc9e061899.js",
+    "precache-manifest.c42798453ebdac6555dc2924da23f16b.js": "./precache-manifest.c42798453ebdac6555dc2924da23f16b.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.c65f6261.chunk.css.map": "./static/css/main.c65f6261.chunk.css.map",
+    "static/css/main.8d45a207.chunk.css.map": "./static/css/main.8d45a207.chunk.css.map",
     "static/media/bbva.png": "./static/media/bbva.bc2da103.png",
     "static/media/Header.scss": "./static/media/flowersBlue.e5d461ae.png",
     "static/media/bold-team.png": "./static/media/bold-team.81258d85.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.c5db20d9.js",
     "static/js/2.b031a5d8.chunk.js",
-    "static/css/main.c65f6261.chunk.css",
+    "static/css/main.8d45a207.chunk.css",
     "static/js/main.8e03e591.chunk.js"
   ]
 }

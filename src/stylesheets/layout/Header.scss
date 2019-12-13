@@ -36,14 +36,17 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: rgba(57, 57, 57, 0.24) 6px 3px 6px 0px;
   }
 
   &__title-and-btn {
     min-width: 150px;
-    padding: 15px;
+    padding: 40px;
+    align-self: flex-end;
+    width: 40%;
   }
   &__title {
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     font-family: $fontTitle;
     font-weight: normal;
@@ -61,6 +64,8 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    align-self: flex-end;
+    width: 50%;
   }
 }
 .fa-circle {
@@ -73,14 +78,16 @@
     &__nav-content {
       font-size: 11px;
     }
+    &__info-content {
+      justify-content: space-between;
+    }
     &__img-content {
       background-image: url("../../images/bg-tablet.png");
-      background-size: contain;
-      background-position: center;
     }
     &__title-and-btn {
       align-self: flex-end;
-      margin-bottom: 20px;
+      padding: 40px;
+      width: 40%;
     }
     &__title {
       font-size: 16px;
@@ -90,8 +97,6 @@
     }
     &__flowers-img-content {
       background-image: url("../../images/flowersBlue.png");
-      background-size: contain;
-      background-position: right;
     }
   }
   .fa-circle {
