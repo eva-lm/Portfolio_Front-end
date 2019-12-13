@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.8d45a207.chunk.css",
-    "main.js": "./static/js/main.8e03e591.chunk.js",
-    "main.js.map": "./static/js/main.8e03e591.chunk.js.map",
+    "main.js": "./static/js/main.f122f7f5.chunk.js",
+    "main.js.map": "./static/js/main.f122f7f5.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c5db20d9.js",
     "runtime-main.js.map": "./static/js/runtime-main.c5db20d9.js.map",
     "static/js/2.b031a5d8.chunk.js": "./static/js/2.b031a5d8.chunk.js",
     "static/js/2.b031a5d8.chunk.js.map": "./static/js/2.b031a5d8.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.c42798453ebdac6555dc2924da23f16b.js": "./precache-manifest.c42798453ebdac6555dc2924da23f16b.js",
+    "precache-manifest.1bc20bec777ad43c505bdcaee23873d4.js": "./precache-manifest.1bc20bec777ad43c505bdcaee23873d4.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.8d45a207.chunk.css.map": "./static/css/main.8d45a207.chunk.css.map",
     "static/media/bbva.png": "./static/media/bbva.bc2da103.png",
@@ -16,7 +16,7 @@
     "static/media/bold-team.png": "./static/media/bold-team.81258d85.png",
     "static/media/card.png": "./static/media/card.0a3f97cd.png",
     "static/media/AboutMe.scss": "./static/media/eva.701c2b67.jpg",
-    "static/media/muestra.png": "./static/media/muestra.6725d373.png",
+    "static/media/pingpong.png": "./static/media/pingpong.33c326be.png",
     "static/media/rick.png": "./static/media/rick.4d43668b.png",
     "static/media/server.png": "./static/media/server.7be6e660.png"
   },
@@ -24,6 +24,6 @@
     "static/js/runtime-main.c5db20d9.js",
     "static/js/2.b031a5d8.chunk.js",
     "static/css/main.8d45a207.chunk.css",
-    "static/js/main.8e03e591.chunk.js"
+    "static/js/main.f122f7f5.chunk.js"
   ]
 }

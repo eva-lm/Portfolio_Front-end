@@ -4,7 +4,7 @@ import bold from "../images/projects/bold-team.png";
 import card from "../images/projects/card.png";
 import rick from "../images/projects/rick.png";
 import server from "../images/projects/server.png";
-import pingpong from "../images/projects/muestra.png";
+import pingpong from "../images/projects/pingpong.png";
 import "../stylesheets/layout/Project.scss";
 
 const ProyectsList = props => {
