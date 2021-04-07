@@ -2,10 +2,12 @@
 
 .App {
   width: 100vw;
-  background-color: $colorBlue;
+  //background-color: $colorBlue;
+  position: relative;
 }
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: $fontText;
 }

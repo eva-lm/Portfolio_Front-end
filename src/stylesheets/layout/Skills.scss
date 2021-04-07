@@ -1,0 +1,342 @@
+@import "../components/_variables";
+
+.section__skills {
+  height: 100vh;
+  background-color: $yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5%;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  max-width: 900px;
+  padding-left: 50px;
+  //box-shadow: 5px 5px 5px 8px rgba(182, 18, 141, 0.11);
+}
+.codeSkills {
+  font-size: 18px;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@-webkit-keyframes load {
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+@-moz-keyframes load {
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes load {
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+.progress > li {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+}
+
+.progress > li:before {
+  content: attr(data-name);
+  position: absolute;
+  width: 100%;
+  bottom: -2rem;
+  font-weight: bold;
+}
+
+.progress > li:after {
+  content: attr(data-percent);
+  position: absolute;
+  width: 100%;
+  top: 3.7rem;
+  left: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.progress svg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.progress svg:nth-child(2) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+}
+
+.progress svg:nth-child(2) path {
+  fill: none;
+  stroke-width: 16;
+  stroke-dasharray: 690;
+  stroke: #00c8c8;
+  -webkit-animation: load 10s;
+  -moz-animation: load 10s;
+  -o-animation: load 10s;
+  animation: load 10s;
+}
+
+//bar
+.codeSkillBar {
+  height: 40px;
+  background: white;
+  border-radius: 20px;
+}
+.SkillHtml {
+  width: 100%;
+  animation: Animate-HTML 4s;
+  -webkit-animation: Animate-HTML 4s;
+  -moz-animation: Animate-HTML 4s;
+  -o-animation: Animate-HTML 4s;
+  height: 40px;
+  background-color: $aqua;
+  border-radius: 20px;
+}
+.SkillCss {
+  width: 90%;
+  animation: Animate-CSS 4s;
+  -webkit-animation: Animate-CSS 4s;
+  -moz-animation: Animate-CSS 4s;
+  -o-animation: Animate-CSS 4s;
+  height: 40px;
+  background-color: $aqua;
+  border-radius: 20px;
+}
+.SkillJavascript {
+  width: 80%;
+  animation: Animate-JS 4s;
+  -webkit-animation: Animate-JS 4s;
+  -moz-animation: Animate-JS 4s;
+  -o-animation: Animate-JS 4s;
+  height: 40px;
+  background-color: $aqua;
+  border-radius: 20px;
+}
+.SkillReact {
+  width: 85%;
+  animation: Animate-React 4s;
+  -webkit-animation: Animate-React 4s;
+  -moz-animation: Animate-React 4s;
+  -o-animation: Animate-React 4s;
+  height: 40px;
+  background-color: $aqua;
+  border-radius: 20px;
+}
+.SkillInfo {
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.SkilllName {
+  padding-left: 20px;
+}
+.SkillPercentage {
+  padding-left: 20px;
+}
+
+//HTML Animation
+@keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-webkit-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-moz-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-o-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+//CSS Animation
+@keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-webkit-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-moz-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-o-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+//JS Animation
+@keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-webkit-keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-moz-keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-o-keyframes Animate-JS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+//React Animation
+@keyframes Animate-React {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 85%;
+  }
+}
+@-webkit-keyframes Animate-React {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 85%;
+  }
+}
+@-moz-keyframes Animate-React {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 85%;
+  }
+}
+@-o-keyframes Animate-React {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 85%;
+  }
+}
+
+//DESIGN
+.designSkills {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 30px;
+}
+.imageAdobe {
+  height: 60px;
+}
+.progressPs {
+  // height: 300px;
+  // stroke: red;
+  // fill: yellow !important;
+  animation: fillPs ease-in-out 4s;
+  // transition: "stroke-dashoffset 0.8s ease 0s";
+  // transform: "rotate(0.75turn)";
+  transform: rotate(126deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes fillPs {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(126deg);
+  }
+}
+.helloBtn {
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+}
+
+// custom.css
+// .CircularProgressbar-path {
+//   stroke: red;
+// }
+// .CircularProgressbar-trail {
+//   stroke: gray;
+// }
+// .CircularProgressbar-text {
+//   fill: yellow;
+// }
+// .CircularProgressbar-background {
+//   fill: green;
+// }

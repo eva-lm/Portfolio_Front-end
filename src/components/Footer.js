@@ -5,7 +5,7 @@ import "../stylesheets/components/_buttons.scss";
 const Footer = () => {
   return (
     <footer className="footer">
-      <button className="footer__up">
+      {/* <button className="footer__up">
         <a href="#header">
           <i className="fas fa-angle-up"></i>
         </a>
@@ -37,11 +37,11 @@ const Footer = () => {
           >
             <i className="fab fa-instagram"></i>
           </a>
-        </div>
+        </div> */}
         <small className="footer__small-name">
           Eva Lorenzo Mendieta &copy;2019
         </small>
-      </div>
+      {/* </div> */}
     </footer>
   );
 };

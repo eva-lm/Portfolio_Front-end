@@ -1,6 +1,18 @@
 $fontTitle: "Montserrat", sans-serif;
-$fontText: "Lora", serif;
+//$fontText: "Lora", serif;
 
+$fontText: "Open Sans", sans-serif;
+@font-face {
+  font-family: "Ranchers";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ranchers/v8/zrfm0H3Lx-P2Xvs2ArDRBi_fXiHusAI.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+$rancherText: "Ranchers";
 $colorLight: #ffffff;
 $colorDarkBlue: rgb(18, 70, 116);
 
@@ -11,3 +23,12 @@ $colorBlue: #e02557;
 
 $colorGray: rgb(138, 138, 138);
 $colorPink: rgb(243, 199, 219);
+
+$colorText: #161616;
+//$colorText: #4a4a4a;
+//NEWWWW
+
+$yellow: #ffba5a;
+$aqua: #00c8c8;
+$pink: #ff95a9;
+$lilac: #b99cbc;
