@@ -1,0 +1,32 @@
+@import "../components/_variables";
+
+.ux {
+  //padding-top: 90px;
+  //height: 600px;
+  overflow-y: hidden;
+  &__project {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .pink {
+    background-color: $pink;
+  }
+  .lilac {
+    background-color: $lilac;
+    width: 100%;
+  }
+  .aqua {
+    background-color: $aqua;
+  }
+  &__img {
+    height: 80vh;
+  }
+}
+
+.change {
+  background-color: red !important;
+}

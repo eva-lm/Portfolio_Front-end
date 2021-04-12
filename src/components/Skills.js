@@ -13,11 +13,8 @@ import { CircularProgressbarWithChildren } from 'react-circular-progressbar';
 
 const Skills = (props) => {
 const [showMe, setShowMe] = useState(false);
-
+//console.log("props skills", props)
   return (
-    <React.Fragment>
-      {props.renderSkills === true ?
-        ( 
           <section className="section__skills">
             <div className="wrapperSvg">
             {showMe === false ?
@@ -199,10 +196,6 @@ const [showMe, setShowMe] = useState(false);
           </div> */}
         <Footer /> 
         </section>
-        ) : 
-        (null)
-        }
-     </React.Fragment>
     )
 }
 export default Skills;

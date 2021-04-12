@@ -1,0 +1,129 @@
+@import "../components/_variables";
+
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,600|Tulpen+One&display=swap");
+
+.illus {
+  background-color: #fafafa;
+  color: #2a2935;
+
+  --book-title: "Tulpen One", sans-serif;
+  --title: "Cormorant Garamond", serif;
+  --body: "Cormorant Garamond", serif;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 90px;
+}
+
+.cover {
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.3);
+  margin: 0 5%;
+  width: 80%;
+  height: 70vh;
+  background-color: #f5f5f5;
+}
+
+.page1 {
+  width: 100%;
+  background-image: linear-gradient(
+    90deg,
+    rgba(227, 227, 227, 1) 0%,
+    rgba(247, 247, 247, 0) 18%
+  );
+}
+.awssld__content {
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    object-fit: contain;
+  }
+}
+.page__content-book-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #2a2935;
+  background-color: green;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  padding-left: 50px;
+}
+.page__content-author {
+  font-family: var(--title);
+  font-weight: 100;
+  text-transform: uppercase;
+  border-top: 1px solid;
+  position: absolute;
+  top: 50%;
+  margin-left: 50px;
+}
+
+.book__page1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  // overflow: hidden;
+  transition: color 150ms cubic-bezier(0.1, 0.7, 0.6, 0.9);
+}
+.book__page2 {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-image: linear-gradient(
+    90deg,
+    rgba(227, 227, 227, 1) 0%,
+    rgba(247, 247, 247, 0) 18%
+  );
+  img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+// .book__page-front {
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   transform: rotateY(0deg) translateZ(1px);
+// }
+
+// &-title {
+//   font-family: var(--title);
+//   font-size: calc(var(--base-size) * 1);
+//   text-transform: uppercase;
+//   letter-spacing: 1px;
+//   margin-top: calc(var(--baseline) * 5);
+//   margin-bottom: calc(var(--baseline) * 3);
+// }
+// &-text {
+//   font-family: var(--title);
+//   font-size: calc(var(--base-size) * 0.67);
+//   text-align: justify;
+//   text-indent: var(--baseline);
+// }
+
+// .page__number {
+//   position: absolute;
+//   bottom: var(--baseline);
+//   width: calc(100% - (var(--baseline) * 2));
+//   font-family: var(--title);
+//   font-size: calc(var(--base-size) * 0.67);
+//   text-align: center;
+// }
+
+input[type="radio"] {
+  display: none;
+
+  &:checked + .book__page {
+    transition: transform 0.9s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transform: rotateY(-180deg);
+  }
+}

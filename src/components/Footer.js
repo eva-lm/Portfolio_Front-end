@@ -39,7 +39,7 @@ const Footer = () => {
           </a>
         </div> */}
         <small className="footer__small-name">
-          Eva Lorenzo Mendieta &copy;2019
+          Eva Lorenzo Mendieta &copy;2021
         </small>
       {/* </div> */}
     </footer>
