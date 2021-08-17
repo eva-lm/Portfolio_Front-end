@@ -37,16 +37,19 @@
 }
 .form__button {
   width: 200px;
-  font-size: 12px;
-  background: transparent;
-  color: $colorBlue;
+  font-size: 16px;
+  font-weight: bold;
   font-family: $fontTitle;
   padding: 4px 6px;
-  border: 1px solid $colorBlue;
-  transition: all 2s;
+  margin: 3px;
+  transition: all 0.8s;
   cursor: pointer;
+  border-radius: 10px;
+  color: $yellow;
+  border: solid 2px $yellow;
+  background: transparent;
 }
 .form__button:hover {
   color: $colorLight;
-  background-color: $colorBlue;
+  background-color: $yellow;
 }

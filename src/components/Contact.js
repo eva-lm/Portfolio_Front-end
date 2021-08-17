@@ -80,7 +80,7 @@ class Contact extends React.Component {
               required
             />
             <div className="form__btn-content">
-              <button className="about__button" type="submit">
+              <button className="form__button" type="submit">
                 Enviar
               </button>
             </div>
