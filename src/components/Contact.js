@@ -37,7 +37,6 @@ class Contact extends React.Component {
     const { username, email, message } = this.state;
     return (
       <section className="form" id="contact">
-        <div className="bg-container">
           <h2 className="form__title">Ponte en contacto conmigo</h2>
           <form
             className="form__content"
@@ -81,12 +80,11 @@ class Contact extends React.Component {
               required
             />
             <div className="form__btn-content">
-              <button className="form__button" type="submit">
+              <button className="about__button" type="submit">
                 Enviar
               </button>
             </div>
           </form>
-        </div>
       </section>
     );
   }

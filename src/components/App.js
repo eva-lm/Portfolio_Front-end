@@ -5,8 +5,8 @@ import Home from "./Home";
 import Ux from "./Ux";
 import Illustrations from "./Illustrations";
 
-// import Contact from "./Contact";
-// import ProjectsList from "./ProjectsList";
+import Contact from "./Contact";
+import ProjectsList from "./ProjectsList";
 import "../stylesheets/layout/App.scss";
 
 import "../stylesheets/layout/Home.scss";
@@ -59,10 +59,12 @@ showComponentSkills() {
         </Link>
         <div className="header__nav-content">
           <nav className="header__nav" id="header">
+            <Link to="/front-end">
             <button className="gradientHover" href="#front" alt="front end projectos" onMouseMove={this.gradientHover}>
             <span className="header__link">front-end</span>
             </button>
-            <Link to="/ux">
+            </Link>
+            <Link to="/ux-ui">
             <button className="gradientHover" href="" alt="ux ui projectos" onMouseMove={this.gradientHover}>
             <span className="header__link">UX / UI</span>
             </button>
@@ -72,13 +74,14 @@ showComponentSkills() {
             <span className="header__link">illustrations</span>
             </button>
             </Link>
-            <button className="gradientHover" href="#3d" alt="3D projectos" onMouseMove={this.gradientHover}>
+            {/* <button className="gradientHover" href="#3d" alt="3D projectos" onMouseMove={this.gradientHover}>
             <span className="header__link">3D animation</span>
-            </button>
-
+            </button> */}
+          <Link to="/contact">
             <button className="gradientHover contact" href="#contact" alt="contacto" onMouseMove={this.gradientHover}>
             <span className="header__link">contacto</span>
             </button>
+          </Link>
           </nav>
           <nav className="header__social" id="header-social">
             <a 
@@ -115,8 +118,10 @@ showComponentSkills() {
             render={routerProps => (
               <Home showComponentSkills={this.showComponentSkills} renderSkills={this.state.renderSkills} />
               )}/>
-            <Route path="/ux" component={Ux} />
+            <Route path="/ux-ui" component={Ux} />
             <Route path="/illustrations" component={Illustrations} />
+            <Route path="/front-end" component={ProjectsList} />
+            <Route path="/contact" component={Contact} />
           </Switch>
       </main>
     </div>
