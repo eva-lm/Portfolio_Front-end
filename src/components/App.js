@@ -2,7 +2,7 @@ import React from "react";
 import { Link, Route, Switch } from 'react-router-dom';
 
 import Home from "./Home";
-import Ux from "./Ux";
+import {Ux} from "./Ux";
 import Illustrations from "./Illustrations";
 
 import Contact from "./Contact";
