@@ -3,30 +3,104 @@
 .ux {
   //padding-top: 90px;
   //height: 600px;
+  // height: 100vh;
   overflow-y: hidden;
   &__project {
-    height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
+    &-content {
+      display: flex;
+      align-items: center;
+    }
+    &-arrow-slider {
+      background-color: transparent;
+      border: none;
+      color: $lilac;
+      font-size: 60px;
+      cursor: pointer;
+      font-family: "Rubik", sans-serif;
+      transition: all 0.3s;
+    }
+    &-arrow-slider:hover {
+      color: $colorLight;
+    }
   }
-
   .pink {
     background-color: $pink;
-  }
-  .lilac {
-    background-color: $lilac;
-    width: 100%;
-  }
-  .aqua {
-    background-color: $aqua;
   }
   &__img {
     height: 80vh;
   }
 }
 
-.change {
-  background-color: red !important;
+.ux-complete {
+  //height: auto !important;
+  background-color: blue;
+  &__content {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__content-info {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    padding: 50px;
+    width: 80%;
+    &-main {
+      color: white;
+      width: 50%;
+      //padding-left: 100px;
+      &-title {
+        font-weight: bolder;
+        font-size: 26px;
+      }
+      &-description {
+        font-size: 18px;
+        margin-top: 40px;
+      }
+    }
+    &-wireframe {
+      color: white;
+      width: 50%;
+      // padding-left: 100px;
+      &-title {
+        font-weight: bolder;
+        font-size: 20px;
+      }
+      &-description {
+        font-size: 15px;
+        margin-top: 40px;
+      }
+    }
+    &-style {
+      color: white;
+      width: 50%;
+      // padding-left: 100px;
+      &-title {
+        font-weight: bolder;
+        font-size: 20px;
+      }
+      &-description {
+        font-size: 15px;
+        margin-top: 40px;
+      }
+    }
+  }
+  &__img-style {
+    object-fit: contain;
+    width: 100%;
+  }
+  &__img-wireframe {
+    object-fit: contain;
+    width: 100%;
+  }
+}
+.wrap-img {
+  width: 50%;
+  height: auto;
 }
