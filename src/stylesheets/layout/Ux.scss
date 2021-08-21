@@ -1,13 +1,10 @@
 @import "../components/_variables";
 
 .ux {
-  //padding-top: 90px;
-  //height: 600px;
-  // height: 100vh;
   overflow-y: hidden;
   &__project {
-    height: auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     &-content {
@@ -36,71 +33,85 @@
 }
 
 .ux-complete {
-  //height: auto !important;
-  background-color: blue;
   &__content {
-    background-color: red;
     display: flex;
+    height: 100vh;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding-top: 80px;
   }
   &__content-info {
-    background-color: cadetblue;
     display: flex;
-    justify-content: center;
-    // align-items: center;
+    justify-content: space-between;
     padding: 50px;
     width: 80%;
+    max-width: 1500px;
     &-main {
       color: white;
       width: 50%;
-      //padding-left: 100px;
+      margin-right: 70px;
       &-title {
         font-weight: bolder;
         font-size: 26px;
       }
       &-description {
         font-size: 18px;
-        margin-top: 40px;
+        margin-top: 20px;
       }
     }
     &-wireframe {
       color: white;
       width: 50%;
-      // padding-left: 100px;
+      margin-left: 70px;
       &-title {
         font-weight: bolder;
         font-size: 20px;
       }
       &-description {
         font-size: 15px;
-        margin-top: 40px;
+        margin-top: 20px;
       }
     }
     &-style {
       color: white;
       width: 50%;
       // padding-left: 100px;
+      margin-right: 70px;
       &-title {
         font-weight: bolder;
         font-size: 20px;
       }
       &-description {
         font-size: 15px;
-        margin-top: 40px;
+        margin-top: 20px;
       }
     }
   }
   &__img-style {
-    object-fit: contain;
-    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    cursor: pointer;
   }
   &__img-wireframe {
-    object-fit: contain;
-    width: 100%;
+    object-fit: cover;
+    height: 200px;
   }
 }
 .wrap-img {
-  width: 50%;
-  height: auto;
+  //width: 50%;
+}
+.full-image-content {
+  background-color: $pink;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  &-link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  &-img {
+    width: 80%;
+  }
 }

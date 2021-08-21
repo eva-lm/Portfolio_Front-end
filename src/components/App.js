@@ -7,6 +7,8 @@ import Illustrations from "./Illustrations";
 
 import Contact from "./Contact";
 import ProjectsList from "./ProjectsList";
+import ModalImg  from "./ModalImg"; 
+
 import "../stylesheets/layout/App.scss";
 
 import "../stylesheets/layout/Home.scss";
@@ -115,18 +117,21 @@ showComponentSkills() {
           <Switch>
             <Route 
             exact path="/" 
-            render={routerProps => (
-              <Home showComponentSkills={this.showComponentSkills} renderSkills={this.state.renderSkills} />
-              )}/>
+            render={() => {
+              return (
+                <Home showComponentSkills={this.showComponentSkills} renderSkills={this.state.renderSkills} />
+              )
+            }} />
             <Route path="/ux-ui" component={Ux} />
             <Route path="/illustrations" component={Illustrations} />
             <Route path="/front-end" component={ProjectsList} />
             <Route path="/contact" component={Contact} />
+            {/* <Route path="/full" component={ModalImg} />                      */}
           </Switch>
       </main>
     </div>
     )
   }
-}
+}    
 
 export default App;
