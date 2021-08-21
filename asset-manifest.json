@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio_Front-end/static/css/main.0ac202fc.chunk.css",
-    "main.js": "/Portfolio_Front-end/static/js/main.40a4f9d1.chunk.js",
-    "main.js.map": "/Portfolio_Front-end/static/js/main.40a4f9d1.chunk.js.map",
+    "main.css": "/Portfolio_Front-end/static/css/main.440f34df.chunk.css",
+    "main.js": "/Portfolio_Front-end/static/js/main.50819881.chunk.js",
+    "main.js.map": "/Portfolio_Front-end/static/js/main.50819881.chunk.js.map",
     "runtime-main.js": "/Portfolio_Front-end/static/js/runtime-main.eeae6f6b.js",
     "runtime-main.js.map": "/Portfolio_Front-end/static/js/runtime-main.eeae6f6b.js.map",
     "static/css/2.cbc8e3cf.chunk.css": "/Portfolio_Front-end/static/css/2.cbc8e3cf.chunk.css",
-    "static/js/2.cb68e34d.chunk.js": "/Portfolio_Front-end/static/js/2.cb68e34d.chunk.js",
-    "static/js/2.cb68e34d.chunk.js.map": "/Portfolio_Front-end/static/js/2.cb68e34d.chunk.js.map",
+    "static/js/2.7ec26544.chunk.js": "/Portfolio_Front-end/static/js/2.7ec26544.chunk.js",
+    "static/js/2.7ec26544.chunk.js.map": "/Portfolio_Front-end/static/js/2.7ec26544.chunk.js.map",
     "index.html": "/Portfolio_Front-end/index.html",
     "static/css/2.cbc8e3cf.chunk.css.map": "/Portfolio_Front-end/static/css/2.cbc8e3cf.chunk.css.map",
-    "static/css/main.0ac202fc.chunk.css.map": "/Portfolio_Front-end/static/css/main.0ac202fc.chunk.css.map",
-    "static/js/2.cb68e34d.chunk.js.LICENSE.txt": "/Portfolio_Front-end/static/js/2.cb68e34d.chunk.js.LICENSE.txt",
+    "static/css/main.440f34df.chunk.css.map": "/Portfolio_Front-end/static/css/main.440f34df.chunk.css.map",
+    "static/js/2.7ec26544.chunk.js.LICENSE.txt": "/Portfolio_Front-end/static/js/2.7ec26544.chunk.js.LICENSE.txt",
     "static/media/AboutMe.scss": "/Portfolio_Front-end/static/media/Eva.6f087a4b.jpg",
+    "static/media/Wireframe_EcoCream.a9b092eb.png": "/Portfolio_Front-end/static/media/Wireframe_EcoCream.a9b092eb.png",
     "static/media/adobexd.13576448.png": "/Portfolio_Front-end/static/media/adobexd.13576448.png",
     "static/media/arcade.27ea7ef7.png": "/Portfolio_Front-end/static/media/arcade.27ea7ef7.png",
     "static/media/bbva.294deea9.png": "/Portfolio_Front-end/static/media/bbva.294deea9.png",
     "static/media/bold-team.49f8514a.png": "/Portfolio_Front-end/static/media/bold-team.49f8514a.png",
     "static/media/card.520e02d7.png": "/Portfolio_Front-end/static/media/card.520e02d7.png",
+    "static/media/ecocream-video.f318dbc4.mov": "/Portfolio_Front-end/static/media/ecocream-video.f318dbc4.mov",
+    "static/media/fashiontrends-video.f1e7a652.mov": "/Portfolio_Front-end/static/media/fashiontrends-video.f1e7a652.mov",
     "static/media/Home.scss": "/Portfolio_Front-end/static/media/hero_-18.2d9fb41d.png",
     "static/media/hp.cbb3ef5e.png": "/Portfolio_Front-end/static/media/hp.cbb3ef5e.png",
     "static/media/illustratorlogo.d477e9b1.png": "/Portfolio_Front-end/static/media/illustratorlogo.d477e9b1.png",
@@ -32,15 +35,16 @@
     "static/media/pingpong.f57b8ca1.png": "/Portfolio_Front-end/static/media/pingpong.f57b8ca1.png",
     "static/media/pokemon.b60012fb.png": "/Portfolio_Front-end/static/media/pokemon.b60012fb.png",
     "static/media/rick.2f34dd94.png": "/Portfolio_Front-end/static/media/rick.2f34dd94.png",
+    "static/media/style-ux1.765a1f6a.png": "/Portfolio_Front-end/static/media/style-ux1.765a1f6a.png",
     "static/media/ux1.b59933a8.png": "/Portfolio_Front-end/static/media/ux1.b59933a8.png",
     "static/media/ux2.7d35c650.png": "/Portfolio_Front-end/static/media/ux2.7d35c650.png",
-    "static/media/ux3.03f6264b.png": "/Portfolio_Front-end/static/media/ux3.03f6264b.png"
+    "static/media/ux3.ff99670d.png": "/Portfolio_Front-end/static/media/ux3.ff99670d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.eeae6f6b.js",
     "static/css/2.cbc8e3cf.chunk.css",
-    "static/js/2.cb68e34d.chunk.js",
-    "static/css/main.0ac202fc.chunk.css",
-    "static/js/main.40a4f9d1.chunk.js"
+    "static/js/2.7ec26544.chunk.js",
+    "static/css/main.440f34df.chunk.css",
+    "static/js/main.50819881.chunk.js"
   ]
 }
