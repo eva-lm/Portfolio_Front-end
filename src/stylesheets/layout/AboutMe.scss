@@ -14,10 +14,12 @@
   }
   &__text {
     font-family: $fontTitle;
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 25px;
     text-align: start;
     width: 65%;
     color: white;
+    font-weight: lighter;
   }
   &__text-skills {
     font-family: $fontTitle;

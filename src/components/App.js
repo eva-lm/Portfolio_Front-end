@@ -15,15 +15,12 @@ import "../stylesheets/layout/Home.scss";
 import "../stylesheets/layout/Header.scss";
 import "../stylesheets/components/_buttons.scss";
 
-let menuHome  = document.getElementById("home")
 
 class App extends React.Component {
   constructor(props) { 
     super(props);
-      this.menuHome = React.createRef();
     this.state = {
       renderSkills: false,
-      isMenuHome: menuHome
     }
     this.showComponentSkills = this.showComponentSkills.bind(this);
   }
@@ -48,12 +45,9 @@ showComponentSkills() {
   }
   
   render() {
-
-    console.log("meno", menuHome)
-    const node = this.menuHome.current;
     return (
     <div className="App">
-<Menu menuHome={this.state.isMenuHome} />
+<Menu />
       <main>
           <Switch>
             <Route 

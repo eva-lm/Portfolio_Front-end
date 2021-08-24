@@ -7,8 +7,7 @@ import "../stylesheets/components/_buttons.scss";
 import logo from "../images/logo__.png";
 
 
-export const Menu = (props) => {
-console.log("props menu", props)
+export const Menu = () => {
    function gradientHover(e) {
         const x = e.pageX - e.target.offsetLeft
         const y = e.pageY - e.target.offsetTop

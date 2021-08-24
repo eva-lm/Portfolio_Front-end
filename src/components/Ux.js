@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, Route, Switch } from 'react-router-dom';
-
+import Spinner from "./Spinner";
 import { projectsUx } from "./projectsUx";
 import ModalWireframe from "./ModalWireframe";
 import ModalWireflow from "./ModalWireflow";
@@ -47,6 +47,7 @@ useEffect(() => {
       () => {
         return (
           <section className={showViewComplete ? "ux ux-complete" : "ux"}> 
+              {projectsUx.length <= 0 && <Spinner />} 
           {parseInt(projectsUx[currentPage].id) !== undefined && projectsUx.length ?
              ( <article className="ux__project pink" id={parseInt(projectsUx[currentPage].id)} style={showViewComplete ? {height: "auto"} : {height: "100vh"}}>
                 {/* <h2>{projectsUx[currentPage].title}</h2> */}

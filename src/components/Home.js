@@ -12,7 +12,7 @@ function handleScroll() {
 }
   return (
     <React.Fragment>
-    <section className="home" id="home">
+    <section className="home">
       <div className="home__info-content">
         <div className="home__img-content"></div>
         <div className="home__title-and-btn">

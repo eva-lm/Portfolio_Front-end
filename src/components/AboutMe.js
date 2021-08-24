@@ -8,7 +8,7 @@ const AboutMe = (props) => {
           <div className="overlay">
           <div className="about__me-content">
             <p className="about__text">
-            Hola! Mi nombre es Eva y resido en Madrid, España. Soy <strong>desarrolladora front-end junior e ilustradora digital</strong>. También estoy estudiando Animación 3D y juegos. Me encanta combinar diseño con código, disfruto mucho con ambos, puesto que me permite crear un producto a partir de una idea. En cuanto a mi parte artística, me gusta inspirarme en la naturaleza y sus colores, en transmitir alegría y armonía con lo que hago. Intento que mi estilo sea fresco y que me represente. Respecto al código me gusta trabajar con Javascript usando frameworks como React o Vue. También tengo nociones de C#.
+            Hola! Mi nombre es Eva y resido en Madrid, España. Soy <strong>desarrolladora front-end junior e ilustradora digital</strong>. También tengo algunas nociones de diseño Ux-Ui y estoy estudiando Animación 3D. Me encanta combinar diseño con código, elaborar propuestas a partir de una idea para después darles funcionalidad.
 
             Puedes contactar conmigo a través del apartado contacto o desde mis redes sociales accediendo desde el menú. ¡Estaré encantada de responderte! 🙂
             </p>
