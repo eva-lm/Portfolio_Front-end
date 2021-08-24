@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import AwesomeSlider from 'react-awesome-slider';
+import { Menu } from "./Menu";
+import Footer from "./Footer";
+
 import 'react-awesome-slider/dist/styles.css';
 import "../stylesheets/layout/Illustrations.scss";
 import ilus1 from "../images/illus/ilus-1.png";
@@ -42,6 +45,7 @@ console.log("next", nextPage)
     </AwesomeSlider>
       {/* </div>
       </div> */}
+            <Footer /> 
     </section>
   )
 }

@@ -1,4 +1,7 @@
 import React from "react";
+import { Menu } from "./Menu";
+import Footer from "./Footer";
+
 import "../stylesheets/layout/Contact.scss";
 import "../stylesheets/components/_buttons.scss";
 
@@ -37,6 +40,7 @@ class Contact extends React.Component {
     const { username, email, message } = this.state;
     return (
       <section className="form" id="contact">
+        <div className="form__wrap">
           <h2 className="form__title">Ponte en contacto conmigo</h2>
           <form
             className="form__content"
@@ -85,6 +89,8 @@ class Contact extends React.Component {
               </button>
             </div>
           </form>
+          </div>
+          <Footer /> 
       </section>
     );
   }

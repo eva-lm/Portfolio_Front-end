@@ -1,15 +1,15 @@
 @import "../components/_variables";
 
 .projects {
-  background-color: $aqua;
-  padding-top: 95px;
+  padding-top: 80px;
 }
-
 .wrapper {
+  background-color: $aqua;
   list-style: none;
   display: grid;
   justify-content: center;
   grid-template-columns: 350px;
+  padding: 50px;
 }
 .project__item {
   text-align: center;

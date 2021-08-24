@@ -2,9 +2,10 @@ import React from "react";
 import "../stylesheets/layout/Footer.scss";
 import "../stylesheets/components/_buttons.scss";
 
-const Footer = () => {
+const Footer = (props) => {
+  console.log("futerprops", props.isProjectsFrontPage )
   return (
-    <footer className="footer">
+    <footer className={props.isProjectsFrontPage ? "footer pink" : "footer"}>
       {/* <button className="footer__up">
         <a href="#header">
           <i className="fas fa-angle-up"></i>

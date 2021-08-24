@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { } from 'react-router-dom';
 import { Link, Route, Switch } from 'react-router-dom';
 
 import { projectsUx } from "./projectsUx";
 import ModalWireframe from "./ModalWireframe";
+import ModalWireflow from "./ModalWireflow";
 import ModalImg  from "./ModalImg"; 
+import Footer from "./Footer";
+
 import "../stylesheets/layout/Ux.scss";
 
 
@@ -36,9 +38,8 @@ useEffect(() => {
 
 }, [showViewComplete])
 
-console.log(" projectsUx.length->",  projectsUx.length ,"y currentpage", currentPage)
+// console.log(" projectsUx.length->",  projectsUx.length ,"y currentpage", currentPage)
   return (
-    <div>
   <Switch>
     <Route
     exact path="/ux-ui"
@@ -68,7 +69,7 @@ console.log(" projectsUx.length->",  projectsUx.length ,"y currentpage", current
                           <h3 className="ux-complete__content-info-main-title">Demo:</h3>
                           <p className="ux-complete__content-info-main-description">{inf.description}</p>
                       </div>
-                      <video height="200px" controls autoPlay>
+                      <video height="400px" controls autoPlay>
                         <source src={inf.video} type="video/mp4" />
                         Your browser does not support the video tag.
                       </video>
@@ -81,8 +82,22 @@ console.log(" projectsUx.length->",  projectsUx.length ,"y currentpage", current
                       </Link>
                       </div>
                       <div className="ux-complete__content-info-wireframe">
-                       {inf.descriptionWireframe ? <h4 className="ux-complete__content-info-wireframe-title">Wireframe:</h4> : ""}
+                        {inf.descriptionWireframe ? <h4 className="ux-complete__content-info-wireframe-title">Wireframe:</h4> : ""}
                         <p className="ux-complete__content-info-wireframe-description">{inf.descriptionWireframe}</p>
+                      </div>
+                    </div>
+
+                    <div className="ux-complete__content-info">
+                    {inf.wireflow ?
+                      <div className="wrap-img">
+                        <Link to="/ux-ui/full-wireflow">
+                          <img className="ux-complete__img-wireframe" src={inf.wireflow} />
+                        </Link> 
+                      </div>
+                     : ""}
+                      <div className="ux-complete__content-info-wireframe">
+                      {inf.descriptionWireflow ? <h4 className="ux-complete__content-info-wireframe-title">Wireflow:</h4> : ""}
+                        <p className="ux-complete__content-info-wireframe-description">{inf.descriptionWireflow}</p>
                       </div>
                     </div>
       
@@ -105,6 +120,10 @@ console.log(" projectsUx.length->",  projectsUx.length ,"y currentpage", current
               }
               </article>)
               : null}
+
+{showViewComplete ?
+               <Footer /> 
+               : ""}
           </section>
         )
       }
@@ -120,7 +139,11 @@ console.log(" projectsUx.length->",  projectsUx.length ,"y currentpage", current
             <ModalWireframe currentPage={currentPage} />
           }
         /> 
+            <Route path="/ux-ui/full-wireflow"
+          children={
+            <ModalWireflow currentPage={currentPage} />
+          }
+        /> 
   </Switch>
-  </div>
   )
 }

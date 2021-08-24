@@ -6,7 +6,7 @@
   justify-content: center;
   padding: 5px;
   background-color: $aqua;
-  height: 60px;
+  height: 40px;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -16,7 +16,9 @@
     font-size: 13px;
   }
 }
-
+.pink {
+  background-color: $lilac;
+}
 // @media all and (max-width: 1024px) and (min-width: 640px) {
 //   .footer {
 //     padding: 8px;

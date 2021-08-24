@@ -4,10 +4,13 @@ import ux2 from "../images/ux/ux2.png";
 import ux3 from "../images/ux/fashionTrends/ux3.png";
 import styleUx1 from "../images/ux/ecoCream/style/style-ux1.png";
 import videoUx1 from "../images/ux/ecoCream/video/ecocream-video.mov";
+import wireframeUx1 from "../images/ux/ecoCream/wire/Wireframe_EcoCream.png";
 import videoUx3 from "../images/ux/fashionTrends/video/fashiontrends-video.mov";
 
-import wireframeUx1 from "../images/ux/ecoCream/wire/Wireframe_EcoCream.png";
-
+import wireframeUx2 from "../images/ux/UniqueShine/wire/Wireframe-UniqueShine.png";
+import styleUx2 from "../images/ux/UniqueShine/style/style-ux2.png";
+import wireflow from "../images/ux/UniqueShine/wire/wireflow.png";
+import videoUx2 from "../images/ux/UniqueShine/video/UniqueShine-video.mov";
 
 
 export const projectsUx = [
@@ -32,10 +35,14 @@ export const projectsUx = [
             "image": ux2,
                "info": [
                     {
-                        "mock1": "",
-                        "mock2": "",
-                        //"style": "../images/style/style-ux2.jpeg",
-                        "description": "Diseño de una landing page que consiste en la venta de joyas artesanas. Estilo fresco y desenfadado focalizado en público que le guste llevar complementos únicos y hechos a mano. También se trata de un proyecto personal, realizado con Adobe XD. "
+                        "description": "Diseño de una landing page que consiste en la venta de joyas artesanas. Estilo fresco y desenfadado focalizado en un tipo de público que le guste llevar complementos únicos y hechos a mano. También se trata de un proyecto personal, realizado con Adobe XD.",
+                        "video": videoUx2,
+                        "wireframe": wireframeUx2,
+                        "descriptionWireframe": "Boceto de wireframe de baja fidelidad.",
+                        "style": styleUx2,
+                        "descriptionStyle": "Gama de colores marrones reprsentando la artesanía en contraste con el azul para las llamadas de acción. Para los títulos se usa una tipografía de estilo escrita a mano en consonancia con el estilo de la marca.",
+                        "wireflow": wireflow,
+                        "descriptionWireflow": "Diseño del flujo de pantallas de la app en conjunto."
                     } 
                 ] 
         },

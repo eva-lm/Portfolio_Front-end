@@ -1,7 +1,7 @@
 import React from "react";
-import BBVA from "../images/projects/bbva.png";
+import Footer from "./Footer";
+
 import bold from "../images/projects/bold-team.png";
-import card from "../images/projects/card.png";
 import rick from "../images/projects/rick.png";
 import harrypotter from "../images/projects/hp.png";
 import pingpong from "../images/projects/pingpong.png";
@@ -10,6 +10,8 @@ import arcade from "../images/projects/arcade.png"
 import "../stylesheets/layout/Project.scss";
 
 const ProyectsList = props => {
+  const isProjectsFrontPage = true;
+
   return (
     <section className="projects" id="projects">
       {/* <h2 className="projects__title">Mis proyectos</h2> */}
@@ -218,6 +220,8 @@ const ProyectsList = props => {
             <p className="project__languages"><span>SASS</span></p>
         </li>
       </ul>
+
+      <Footer isProjectsFrontPage={isProjectsFrontPage} /> 
     </section>
   );
 };
