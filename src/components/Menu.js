@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 
 
@@ -8,12 +8,18 @@ import logo from "../images/logo__.png";
 
 
 export const Menu = () => {
+  const [openBurguerMenu, setOpenBurguerMenu] = useState(false)
+
    function gradientHover(e) {
         const x = e.pageX - e.target.offsetLeft
         const y = e.pageY - e.target.offsetTop
         e.target.style.setProperty('--x', `${ x }px`)
         e.target.style.setProperty('--y', `${ y }px`)
       }
+      function handleBurguerMenu() {
+        setOpenBurguerMenu(!openBurguerMenu)
+      }
+      console.log("burguermenu", openBurguerMenu)
     return (
         <header className= "header">
         <Link to="/">
@@ -21,7 +27,10 @@ export const Menu = () => {
           <img src={logo} alt="logo web" className="header__logo-img" />
         </div>
         </Link>
-        <div className="header__nav-content">
+        <div className="icon-burguer" onClick={handleBurguerMenu}>
+          <i className="fa fa-bars"></i>
+        </div>
+        <div className={openBurguerMenu ? "header__nav-content" : "hidden"} id="myLinks">
           <nav className="header__nav" id="header">
             <Link to="/front-end">
             <button className="gradientHover" href="#front" alt="front end projectos" onMouseMove={gradientHover}>

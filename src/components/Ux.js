@@ -53,11 +53,12 @@ useEffect(() => {
                 {/* <h2>{projectsUx[currentPage].title}</h2> */}
                 <div className="ux__project-content">
               <input type="button" className="ux__project-arrow-slider" id={parseInt(projectsUx[currentPage].id)} onClick={showPreviousProject} value="<" />
-          
+                  <div>
                     <img className="ux__img" src={projectsUx[currentPage].image} alt={projectsUx[currentPage].title} />
+                  </div>
               <input type="button" className="ux__project-arrow-slider" id={parseInt(projectsUx[currentPage].id)}onClick={showNextProject} value=">"/>
               </div>
-              <button style={{ fontSize: "18px", border: "solid 2px #8f6894"}}  className="about__button" onClick={showMoreInfo}>
+              <button className="ux__project-show-more" onClick={showMoreInfo}>
                 Show more...
               </button>
               {showViewComplete ?

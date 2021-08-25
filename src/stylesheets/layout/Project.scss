@@ -1,7 +1,7 @@
 @import "../components/_variables";
 
 .projects {
-  padding-top: 80px;
+  //padding-top: 80px;
 }
 .wrapper {
   background-color: $aqua;
@@ -90,9 +90,9 @@
 }
 
 @media all and (min-width: 1024px) {
-  // .projects__title {
-  //   font-size: 18px;
-  // }
+  .projects {
+    padding-top: 80px;
+  }
   .wrapper {
     grid-template-columns: 350px 350px 350px;
   }
