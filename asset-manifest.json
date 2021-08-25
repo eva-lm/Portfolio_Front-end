@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio_Front-end/static/css/main.d6243a3c.chunk.css",
-    "main.js": "/Portfolio_Front-end/static/js/main.93c6d542.chunk.js",
-    "main.js.map": "/Portfolio_Front-end/static/js/main.93c6d542.chunk.js.map",
+    "main.css": "/Portfolio_Front-end/static/css/main.372e48d6.chunk.css",
+    "main.js": "/Portfolio_Front-end/static/js/main.384d0eef.chunk.js",
+    "main.js.map": "/Portfolio_Front-end/static/js/main.384d0eef.chunk.js.map",
     "runtime-main.js": "/Portfolio_Front-end/static/js/runtime-main.eeae6f6b.js",
     "runtime-main.js.map": "/Portfolio_Front-end/static/js/runtime-main.eeae6f6b.js.map",
     "static/css/2.cbc8e3cf.chunk.css": "/Portfolio_Front-end/static/css/2.cbc8e3cf.chunk.css",
-    "static/js/2.59e939eb.chunk.js": "/Portfolio_Front-end/static/js/2.59e939eb.chunk.js",
-    "static/js/2.59e939eb.chunk.js.map": "/Portfolio_Front-end/static/js/2.59e939eb.chunk.js.map",
+    "static/js/2.fff15fc4.chunk.js": "/Portfolio_Front-end/static/js/2.fff15fc4.chunk.js",
+    "static/js/2.fff15fc4.chunk.js.map": "/Portfolio_Front-end/static/js/2.fff15fc4.chunk.js.map",
     "index.html": "/Portfolio_Front-end/index.html",
     "static/css/2.cbc8e3cf.chunk.css.map": "/Portfolio_Front-end/static/css/2.cbc8e3cf.chunk.css.map",
-    "static/css/main.d6243a3c.chunk.css.map": "/Portfolio_Front-end/static/css/main.d6243a3c.chunk.css.map",
-    "static/js/2.59e939eb.chunk.js.LICENSE.txt": "/Portfolio_Front-end/static/js/2.59e939eb.chunk.js.LICENSE.txt",
+    "static/css/main.372e48d6.chunk.css.map": "/Portfolio_Front-end/static/css/main.372e48d6.chunk.css.map",
+    "static/js/2.fff15fc4.chunk.js.LICENSE.txt": "/Portfolio_Front-end/static/js/2.fff15fc4.chunk.js.LICENSE.txt",
     "static/media/AboutMe.scss": "/Portfolio_Front-end/static/media/Eva.6f087a4b.jpg",
     "static/media/UniqueShine-video.d1edf2bd.mov": "/Portfolio_Front-end/static/media/UniqueShine-video.d1edf2bd.mov",
     "static/media/Wireframe-UniqueShine.70724e3c.png": "/Portfolio_Front-end/static/media/Wireframe-UniqueShine.70724e3c.png",
@@ -45,8 +45,8 @@
   "entrypoints": [
     "static/js/runtime-main.eeae6f6b.js",
     "static/css/2.cbc8e3cf.chunk.css",
-    "static/js/2.59e939eb.chunk.js",
-    "static/css/main.d6243a3c.chunk.css",
-    "static/js/main.93c6d542.chunk.js"
+    "static/js/2.fff15fc4.chunk.js",
+    "static/css/main.372e48d6.chunk.css",
+    "static/js/main.384d0eef.chunk.js"
   ]
 }
