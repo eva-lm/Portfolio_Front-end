@@ -7,9 +7,6 @@ import adobexd from "../images/adobexd.png";
 import illustrator from "../images/illustratorlogo.png";
 import ind from "../images/ind.png";
 
-import 'react-circular-progressbar/dist/styles.css';
-import { buildStyles } from 'react-circular-progressbar';
-import { CircularProgressbarWithChildren } from 'react-circular-progressbar';
 
 const Skills = (props) => {
 const [showMe, setShowMe] = useState(false);
@@ -98,93 +95,30 @@ const [showMe, setShowMe] = useState(false);
         </div>
       </div> 
       
+
+
       <div className="designSkills">
-      <div style={{ width: 130, height: 130 }}>
-      <CircularProgressbarWithChildren  value={90} styles={buildStyles({
-          rotation: 0.25,
-          textSize: '16px',
-          pathTransitionDuration: 0.9,
-          pathColor: "#00c8c8",
-          trailColor: '#fffff',
-          backgroundColor: '#fffff',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center'
-        })}>
-        <img style={{ width: 75 }} src={illustrator} alt="illustrator icono" />
-      </CircularProgressbarWithChildren>
+          <div className="designSkills__content">
+            <img className="designSkills__content-img" src={illustrator} alt="illustrator icono" />
+            <span>85%</span>
+          </div>
+      
+          <div className="designSkills__content">
+            <img className="designSkills__content-img" src={photoshop} alt="photshop icono" />
+            <span>85%</span>
+          </div>
+      
+          <div className="designSkills__content">
+            <img className="designSkills__content-img" src={adobexd} alt="adobe xd icono" />
+            <span>85%</span>
+          </div>
+      
+          <div className="designSkills__content">
+            <img className="designSkills__content-img" src={ind} alt="indesign icono" />
+            <span>85%</span>
+          </div>
       </div>
-      
-      <div style={{ width: 130, height: 130 }}>
-      <CircularProgressbarWithChildren  value={80} styles={buildStyles({
-          // Rotation of path and trail, in number of turns (0-1)
-          rotation: 0.25,
-      
-          // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
-         // strokeLinecap: 'butt',
-      
-          // Text size
-          textSize: '16px',
-      
-          // How long animation takes to go from one percentage to another, in seconds
-          pathTransitionDuration: 0.9,
-      
-          // Can specify path transition in more detail, or remove it entirely
-          // pathTransition: 'none',
-      
-          // Colors
-          pathColor: "#00c8c8",
-          trailColor: "#ffffff;",
-          backgroundColor: '#ffffff;',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center'
-        })}>
-        {/* Put any JSX content in here that you'd like. It'll be vertically and horizonally centered. */}
-        <img style={{ width: 75 }} src={photoshop} alt="photshop icono" />
-        {/* <div style={{ fontSize: 12, marginTop: -5 }}>
-          <strong>66%</strong>
-        </div> */}
-      </CircularProgressbarWithChildren>
-      </div>
-      
-      <div style={{ width: 130, height: 130 }}>
-      <CircularProgressbarWithChildren  value={70} styles={buildStyles({
-          rotation: 0.25,
-          textSize: '16px',
-          pathTransitionDuration: 0.9,
-          pathColor: "#00c8c8",
-          trailColor: '#fffff',
-          backgroundColor: '#ffffff',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center'
-        })}>
-        <img style={{ width: 60 }} src={adobexd} alt="adobe xd icono" />
-      </CircularProgressbarWithChildren>
-      </div>
-      
-      <div style={{ width: 130, height: 130 }}>
-      <CircularProgressbarWithChildren  value={60} styles={buildStyles({
-          rotation: 0.25,
-          textSize: '16px',
-          pathTransitionDuration: 0.9,
-          pathColor: '#00c8c8',
-          trailColor: '#fffff',
-          backgroundColor: '#fffff',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-              stroke: '#e02557',
-              strokeLinecap: 'round',
-              transform: 'rotate(0.25turn)',
-              transformOrigin: 'center center',
-              transition: 'stroke-dashoffset 0.8s ease 0s',
-        })}>
-        <img style={{ width: 60 }} src={ind} alt="indesign icono" />
-      </CircularProgressbarWithChildren>
-      </div>
-      </div>
+
       </div>
         }
           {/* <div className="about__content-btn">
@@ -199,3 +133,5 @@ const [showMe, setShowMe] = useState(false);
     )
 }
 export default Skills;
+
+

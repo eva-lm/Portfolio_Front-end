@@ -4,6 +4,7 @@
   height: 100vh;
   background-color: $yellow;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 0 5%;
@@ -14,10 +15,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 70%;
-  max-width: 900px;
-  padding-left: 50px;
-  //box-shadow: 5px 5px 5px 8px rgba(182, 18, 141, 0.11);
+  max-width: 90%;
 }
 .codeSkills {
   font-size: 18px;
@@ -292,51 +290,43 @@
 //DESIGN
 .designSkills {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   width: 100%;
-  max-width: 800px;
   margin-top: 30px;
-}
-.imageAdobe {
-  height: 60px;
-}
-.progressPs {
-  // height: 300px;
-  // stroke: red;
-  // fill: yellow !important;
-  animation: fillPs ease-in-out 4s;
-  // transition: "stroke-dashoffset 0.8s ease 0s";
-  // transform: "rotate(0.75turn)";
-  transform: rotate(126deg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-@keyframes fillPs {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(126deg);
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &-img {
+      object-fit: contain;
+      width: 80%;
+      max-width: 85px;
+    }
+    span {
+      color: #333333;
+      font-size: 20px;
+    }
   }
 }
-.helloBtn {
-  width: 200px;
-  height: 100px;
-  cursor: pointer;
-}
 
-// custom.css
-// .CircularProgressbar-path {
-//   stroke: red;
-// }
-// .CircularProgressbar-trail {
-//   stroke: gray;
-// }
-// .CircularProgressbar-text {
-//   fill: yellow;
-// }
-// .CircularProgressbar-background {
-//   fill: green;
-// }
+@media all and (min-width: 1024px) {
+  .section__skills {
+    flex-direction: row;
+  }
+
+  .skills {
+    width: 70%;
+    max-width: 900px;
+    padding-left: 50px;
+  }
+  .designSkills {
+    &__content {
+      flex-direction: row;
+      span {
+        margin-left: 10px;
+      }
+    }
+  }
+}

@@ -8,16 +8,14 @@
   &__me-content {
     display: flex;
     align-items: center;
-    padding-left: 50px;
     height: 100%;
     border-radius: 12px;
   }
   &__text {
     font-family: $fontTitle;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: start;
-    width: 65%;
+    font-size: 12px;
+    padding: 20px;
+    width: 100%;
     color: white;
     font-weight: lighter;
   }
@@ -32,34 +30,6 @@
     flex-direction: column;
     justify-self: center;
     padding: 5px 0px;
-  }
-  &__small-circle {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    border: 1px solid $colorGreen;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  &__section-title-skill {
-    padding: 2px 4px;
-    background-color: $colorBlue;
-    color: $colorLight;
-    font-family: $fontTitle;
-    border-radius: 15px;
-    font-size: 11px;
-    font-weight: normal;
-  }
-  &__skill-description {
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-  }
-  &__content-btn {
-    text-align: center;
-    position: absolute;
-    bottom: 100px;
   }
 }
 .wrapper-skills {
@@ -88,15 +58,12 @@
   color: $colorBlue;
 }
 .overlay {
-  //position: absolute;
   height: 300px;
   width: auto;
-  // top: 300px;
   border-radius: 12px;
   left: 0;
   right: 0;
   bottom: auto;
-  // background-color: rgba(0, 0, 0, 0.5);
   background: linear-gradient(
     90deg,
     rgba(45, 48, 48, 1) 34%,
@@ -106,95 +73,10 @@
   cursor: pointer;
 }
 
-// @media all and (max-width: 1024px) and (min-width: 640px) {
-//   .about {
-//     &__circle {
-//       height: 11vh;
-//       width: 11vh;
-//     }
-//     &__title {
-//       font-size: 18px;
-//     }
-//     &__text {
-//       font-size: 11px;
-//     }
-//     &__text-skills {
-//       font-size: 11px;
-//     }
-
-//     &__small-circle {
-//       height: 45px;
-//       width: 45px;
-//     }
-//     &__section-title-skill {
-//       font-size: 12px;
-//     }
-//   }
-//   .fa-sass {
-//     font-size: 25px;
-//     color: $colorBlue;
-//   }
-//   .fa-js-square {
-//     font-size: 25px;
-//     color: $colorBlue;
-//   }
-//   .fa-react {
-//     font-size: 25px;
-//     color: $colorBlue;
-//   }
-// }
-// @media all and (min-width: 1024px) {
-//   .about {
-//     &__circle {
-//       height: 12vh;
-//       width: 12vh;
-//     }
-//     &__title {
-//       font-size: 20px;
-//     }
-//     &__text {
-//       font-size: 13px;
-//     }
-//     &__text-skills {
-//       font-size: 13px;
-//       max-width: 90%;
-//     }
-
-//     &__small-circle {
-//       height: 50px;
-//       width: 50px;
-//     }
-//     &__section-title-skill {
-//       font-size: 12px;
-//       width: 15%;
-//       text-align: center;
-//     }
-//     &__skill-description {
-//       padding: 10px;
-//       display: flex;
-//     }
-//   }
-//   .bg-container {
-//     padding: 30px 60px;
-//   }
-//   .fa-sass {
-//     font-size: 26px;
-//     color: $colorBlue;
-//   }
-//   .fa-js-square {
-//     font-size: 26px;
-//     color: $colorBlue;
-//   }
-//   .fa-react {
-//     font-size: 26px;
-//     color: $colorBlue;
-//   }
-// }
-
 .wrapperSvg {
   display: flex;
   align-items: center;
-  padding-right: 50px;
+  margin-bottom: 50px;
 }
 .bgSvgShadow {
   height: 250px;
@@ -233,4 +115,25 @@
   stroke-linecap: round;
   stroke-miterlimit: 10;
   stroke-width: 9px;
+}
+
+@media all and (min-width: 640px) {
+  .wrapperSvg {
+    padding-right: 50px;
+  }
+  .about {
+    background-image: url(../../images/Eva.jpg);
+
+    &__me-content {
+      display: flex;
+      align-items: center;
+      padding-left: 50px;
+      height: 100%;
+      border-radius: 12px;
+    }
+    &__text {
+      font-size: 16px;
+      width: 65%;
+    }
+  }
 }

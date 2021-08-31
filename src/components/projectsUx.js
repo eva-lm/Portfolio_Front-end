@@ -1,16 +1,16 @@
 import React from "react";
 import ux1 from "../images/ux/ecoCream/ux1.png";
-import ux2 from "../images/ux/ux2.png";
+import ux2 from "../images/ux/UniqueShine/ux2.png";
 import ux3 from "../images/ux/fashionTrends/ux3.png";
 import styleUx1 from "../images/ux/ecoCream/style/style-ux1.png";
-import videoUx1 from "../images/ux/ecoCream/video/ecocream-video.mov";
+import videoUx1 from "../images/ux/ecoCream/video/ecocream-video.mp4";
 import wireframeUx1 from "../images/ux/ecoCream/wire/Wireframe_EcoCream.png";
-import videoUx3 from "../images/ux/fashionTrends/video/fashiontrends-video.mov";
+import videoUx3 from "../images/ux/fashionTrends/video/fashiontrends-video.mp4";
 
 import wireframeUx2 from "../images/ux/UniqueShine/wire/Wireframe-UniqueShine.png";
 import styleUx2 from "../images/ux/UniqueShine/style/style-ux2.png";
 import wireflow from "../images/ux/UniqueShine/wire/wireflow.png";
-import videoUx2 from "../images/ux/UniqueShine/video/UniqueShine-video.mov";
+import videoUx2 from "../images/ux/UniqueShine/video/UniqueShine-video.mp4";
 
 
 export const projectsUx = [

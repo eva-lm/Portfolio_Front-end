@@ -14,7 +14,6 @@ function handleScroll() {
     <React.Fragment>
     <section className="home">
       <div className="home__info-content">
-        <div className="home__img-content"></div>
         <div className="home__title-and-btn">
           <h1 className="home__title">Eva ~ Portfolio</h1>
           <h2 className="home__subtitle">Desarrollo web front-end.</h2>
