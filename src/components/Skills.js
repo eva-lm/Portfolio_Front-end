@@ -105,17 +105,17 @@ const [showMe, setShowMe] = useState(false);
       
           <div className="designSkills__content">
             <img className="designSkills__content-img" src={photoshop} alt="photshop icono" />
-            <span>85%</span>
+            <span>80%</span>
           </div>
       
           <div className="designSkills__content">
             <img className="designSkills__content-img" src={adobexd} alt="adobe xd icono" />
-            <span>85%</span>
+            <span>70%</span>
           </div>
       
           <div className="designSkills__content">
             <img className="designSkills__content-img" src={ind} alt="indesign icono" />
-            <span>85%</span>
+            <span>65%</span>
           </div>
       </div>
 

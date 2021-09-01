@@ -31,9 +31,9 @@ function showMoreInfo() {
 }
 useEffect(() => {
   window.scroll({
-    top: document.body.offsetHeight,
-    left: 0, 
-    behavior: 'smooth',
+    // top: document.body.offsetHeight,
+    // left: 0, 
+    // behavior: 'smooth',
   }) 
 
 }, [showViewComplete])
@@ -47,12 +47,12 @@ console.log(" projectsUx.length->",  projectsUx.length ,"y currentpage", current
       () => {
         return (
           <section className={showViewComplete ? "ux ux-complete" : "ux"}> 
-              {projectsUx.length <= 0 && <Spinner />} 
+              {/* {projectsUx.length <= 0 && <Spinner />}  */}
           {parseInt(projectsUx[currentPage].id) !== undefined && projectsUx.length ?
-             ( <article className="ux__project pink" id={parseInt(projectsUx[currentPage].id)}>
+             ( <article className="ux__project" id={parseInt(projectsUx[currentPage].id)}>
                 {/* <h2>{projectsUx[currentPage].title}</h2> */}
                 <div className="ux__project-content">
-                  <div>
+                  <div className="ux__wrap-img">
                     <img className="ux__img" src={projectsUx[currentPage].image} alt={projectsUx[currentPage].title} />
                   </div>
                   <div className="ux__project-arrow">
