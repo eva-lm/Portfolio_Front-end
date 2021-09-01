@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio_Front-end/static/css/main.0d5ba4f0.chunk.css",
-    "main.js": "/Portfolio_Front-end/static/js/main.0d0b2a58.chunk.js",
-    "main.js.map": "/Portfolio_Front-end/static/js/main.0d0b2a58.chunk.js.map",
+    "main.css": "/Portfolio_Front-end/static/css/main.275a7614.chunk.css",
+    "main.js": "/Portfolio_Front-end/static/js/main.0507f0c2.chunk.js",
+    "main.js.map": "/Portfolio_Front-end/static/js/main.0507f0c2.chunk.js.map",
     "runtime-main.js": "/Portfolio_Front-end/static/js/runtime-main.eeae6f6b.js",
     "runtime-main.js.map": "/Portfolio_Front-end/static/js/runtime-main.eeae6f6b.js.map",
     "static/css/2.32073f4d.chunk.css": "/Portfolio_Front-end/static/css/2.32073f4d.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.ed591aaa.chunk.js.map": "/Portfolio_Front-end/static/js/2.ed591aaa.chunk.js.map",
     "index.html": "/Portfolio_Front-end/index.html",
     "static/css/2.32073f4d.chunk.css.map": "/Portfolio_Front-end/static/css/2.32073f4d.chunk.css.map",
-    "static/css/main.0d5ba4f0.chunk.css.map": "/Portfolio_Front-end/static/css/main.0d5ba4f0.chunk.css.map",
+    "static/css/main.275a7614.chunk.css.map": "/Portfolio_Front-end/static/css/main.275a7614.chunk.css.map",
     "static/js/2.ed591aaa.chunk.js.LICENSE.txt": "/Portfolio_Front-end/static/js/2.ed591aaa.chunk.js.LICENSE.txt",
     "static/media/AboutMe.scss": "/Portfolio_Front-end/static/media/Eva.f2ddbc7b.jpg",
     "static/media/UniqueShine-video.b2f45eec.mp4": "/Portfolio_Front-end/static/media/UniqueShine-video.b2f45eec.mp4",
@@ -21,7 +21,7 @@
     "static/media/bold-team.0c32bcf5.png": "/Portfolio_Front-end/static/media/bold-team.0c32bcf5.png",
     "static/media/ecocream-video.b0e61f65.mp4": "/Portfolio_Front-end/static/media/ecocream-video.b0e61f65.mp4",
     "static/media/fashiontrends-video.baa6e378.mp4": "/Portfolio_Front-end/static/media/fashiontrends-video.baa6e378.mp4",
-    "static/media/Home.scss": "/Portfolio_Front-end/static/media/hero_mobile.8b0de763.png",
+    "static/media/Home.scss": "/Portfolio_Front-end/static/media/hero_mobile.81ae031e.png",
     "static/media/hp.0c1fbe05.png": "/Portfolio_Front-end/static/media/hp.0c1fbe05.png",
     "static/media/illustratorlogo.2c081dc9.png": "/Portfolio_Front-end/static/media/illustratorlogo.2c081dc9.png",
     "static/media/ilus-1.b6f37c1e.png": "/Portfolio_Front-end/static/media/ilus-1.b6f37c1e.png",
@@ -45,7 +45,7 @@
     "static/js/runtime-main.eeae6f6b.js",
     "static/css/2.32073f4d.chunk.css",
     "static/js/2.ed591aaa.chunk.js",
-    "static/css/main.0d5ba4f0.chunk.css",
-    "static/js/main.0d0b2a58.chunk.js"
+    "static/css/main.275a7614.chunk.css",
+    "static/js/main.0507f0c2.chunk.js"
   ]
 }
