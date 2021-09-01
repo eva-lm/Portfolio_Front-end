@@ -4,16 +4,23 @@
   overflow-y: hidden;
   height: 100vh;
   &__project {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
     &-content {
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       width: 100%;
-      padding: 0 20px;
+      //padding: 0 10px;
+    }
+    &-arrow {
+      width: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
     &-arrow-slider {
       background-color: transparent;
@@ -24,6 +31,10 @@
       font-family: "Rubik", sans-serif;
       transition: all 0.3s;
     }
+
+    // &-arrow-slider:hover {
+    //   color: $yellow;
+    // }
     &-show-more {
       font-size: 18px;
       font-family: $fontTitle;
@@ -41,19 +52,29 @@
       background-color: $lilac;
       border: solid 2px $lilac;
     }
-    &-arrow-slider:hover {
-      color: $lilac;
-    }
   }
   .pink {
     background-color: $pink;
+    padding: 0 20px 30px 20px;
   }
   &__img {
     object-fit: contain;
     width: 100%;
+    max-height: 90vh;
   }
 }
-
+.off {
+  color: rgba(80, 79, 79, 0.39) !important;
+}
+video {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+  margin-top: 20px;
+}
+img {
+  max-width: 100%;
+}
 .ux-complete {
   height: auto;
   &__content {
@@ -61,16 +82,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 50px 10px;
   }
   &__content-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 50px;
-    width: 80%;
+    padding: 10px;
+    width: 100%;
+    border-top: solid 1px white;
+    margin: 30px 0;
     &-main {
       color: white;
+      margin-top: 20px;
       //width: 50%;
       //  margin-right: 70px;
       &-title {
@@ -111,17 +135,20 @@
     }
   }
   &__img-style {
-    object-fit: cover;
-    height: 300px;
+    margin-top: 20px;
+    object-fit: contain;
+    max-height: 300px;
     cursor: pointer;
   }
   &__img-wireframe {
-    object-fit: cover;
-    height: 300px;
+    margin-top: 20px;
+    object-fit: contain;
+    max-height: 300px;
+    cursor: pointer;
   }
 }
-.wrap-img {
-  //width: 50%;
+.column-reverse {
+  flex-direction: column-reverse;
 }
 .full-image-content {
   background-color: $pink;
@@ -140,13 +167,29 @@
 }
 
 @media all and (max-width: 1024px) and (min-width: 640px) {
+  .ux {
+    &__project {
+      &-arrow {
+        width: 70%;
+      }
+    }
+    &__img {
+      object-fit: contain;
+      width: 80%;
+    }
+  }
 }
-
 @media all and (min-width: 1024px) {
   .ux {
-    padding-top: 80px;
+    // padding-top: 80px;
+    &__project {
+      &-arrow {
+        width: 60%;
+      }
+    }
     &__img {
-      height: 80vh;
+      object-fit: contain;
+      width: 80%;
     }
   }
   .ux-complete {
@@ -155,6 +198,8 @@
     }
     &__content-info {
       flex-direction: row;
+      justify-content: center;
+      width: 90%;
       &-main {
         color: white;
         width: 50%;

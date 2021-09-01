@@ -38,7 +38,7 @@ useEffect(() => {
 
 }, [showViewComplete])
 
-// console.log(" projectsUx.length->",  projectsUx.length ,"y currentpage", currentPage)
+console.log(" projectsUx.length->",  projectsUx.length ,"y currentpage", currentPage)
   return (
   <Switch>
     <Route
@@ -49,18 +49,20 @@ useEffect(() => {
           <section className={showViewComplete ? "ux ux-complete" : "ux"}> 
               {projectsUx.length <= 0 && <Spinner />} 
           {parseInt(projectsUx[currentPage].id) !== undefined && projectsUx.length ?
-             ( <article className="ux__project pink" id={parseInt(projectsUx[currentPage].id)} style={showViewComplete ? {height: "auto"} : {height: "100vh"}}>
+             ( <article className="ux__project pink" id={parseInt(projectsUx[currentPage].id)}>
                 {/* <h2>{projectsUx[currentPage].title}</h2> */}
                 <div className="ux__project-content">
-              <input type="button" className="ux__project-arrow-slider" id={parseInt(projectsUx[currentPage].id)} onClick={showPreviousProject} value="<" />
                   <div>
                     <img className="ux__img" src={projectsUx[currentPage].image} alt={projectsUx[currentPage].title} />
                   </div>
-              <input type="button" className="ux__project-arrow-slider" id={parseInt(projectsUx[currentPage].id)}onClick={showNextProject} value=">"/>
-              </div>
+                  <div className="ux__project-arrow">
+              <input type="button" className={currentPage === 0 ? "ux__project-arrow-slider off" : "ux__project-arrow-slider"} id={parseInt(projectsUx[currentPage].id)} onClick={showPreviousProject} value="<" />
               <button className="ux__project-show-more" onClick={showMoreInfo}>
                 Show more...
               </button>
+              <input type="button" className={currentPage === projectsUx.length - 1 ? "ux__project-arrow-slider off" : "ux__project-arrow-slider"} id={parseInt(projectsUx[currentPage].id)}onClick={showNextProject} value=">"/>
+                  </div>
+              </div>
               {showViewComplete ?
               <>
              {projectsUx[currentPage].info.map((inf, indx) => {
@@ -71,41 +73,41 @@ useEffect(() => {
                           <h3 className="ux-complete__content-info-main-title">Demo:</h3>
                           <p className="ux-complete__content-info-main-description">{inf.description}</p>
                       </div>
-                      <video height="400px" controls autoPlay>
+                      <video controls autoPlay>
                         <source src={inf.video} type="video/mp4" />
                         Your browser does not support the video tag.
                       </video>
                     </div> 
-      
-                    <div className="ux-complete__content-info">
+                  {inf.wireframe ?
+                    (<div className="ux-complete__content-info column-reverse">
                       <div className="wrap-img">
                       <Link to="/ux-ui/full-wireframe">
                           <img className="ux-complete__img-wireframe" src={inf.wireframe} />
                       </Link>
                       </div>
                       <div className="ux-complete__content-info-wireframe">
-                        {inf.descriptionWireframe ? <h4 className="ux-complete__content-info-wireframe-title">Wireframe:</h4> : ""}
+                        <h4 className="ux-complete__content-info-wireframe-title">Wireframe:</h4> 
                         <p className="ux-complete__content-info-wireframe-description">{inf.descriptionWireframe}</p>
                       </div>
-                    </div>
+                    </div>) : ""}
 
-                    <div className="ux-complete__content-info">
                     {inf.wireflow ?
+                    (<div className="ux-complete__content-info column-reverse">
                       <div className="wrap-img">
                         <Link to="/ux-ui/full-wireflow">
                           <img className="ux-complete__img-wireframe" src={inf.wireflow} />
                         </Link> 
                       </div>
-                     : ""}
+                  
                       <div className="ux-complete__content-info-wireframe">
-                      {inf.descriptionWireflow ? <h4 className="ux-complete__content-info-wireframe-title">Wireflow:</h4> : ""}
+                     <h4 className="ux-complete__content-info-wireframe-title">Wireflow:</h4> 
                         <p className="ux-complete__content-info-wireframe-description">{inf.descriptionWireflow}</p>
                       </div>
-                    </div>
-      
-                    <div className="ux-complete__content-info">
+                    </div>) : ""}
+                    {inf.style ?
+                    (<div className="ux-complete__content-info">
                       <div className="ux-complete__content-info-style">
-                       {inf.descriptionStyle ? <h4 className="ux-complete__content-info-style-title">Hoja de estilo:</h4> : "" }
+                      <h4 className="ux-complete__content-info-style-title">Hoja de estilo:</h4>
                         <p className="ux-complete__content-info-style-description">{inf.descriptionStyle}</p>
                       </div>
                       <div className="wrap-img">
@@ -113,7 +115,7 @@ useEffect(() => {
                           <img className="ux-complete__img-style" src={inf.style} />
                       </Link>
                       </div>
-                    </div>
+                    </div>) : ""}
                 </div>
               )
             })}
