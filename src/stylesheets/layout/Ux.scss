@@ -1,8 +1,8 @@
 @import "../components/_variables";
 
 .ux {
-  overflow-y: hidden;
-  height: 100vh;
+  // overflow-y: hidden;
+  //height: 100vh;
   &__project {
     padding: 0 20px 30px 20px;
     background-color: $pink;
@@ -32,9 +32,6 @@
       transition: all 0.3s;
     }
 
-    // &-arrow-slider:hover {
-    //   color: $yellow;
-    // }
     &-show-more {
       font-size: 18px;
       font-family: $fontTitle;
@@ -180,11 +177,11 @@ img {
 }
 @media all and (min-width: 1024px) {
   .ux {
-    // padding-top: 80px;
+    padding-top: 80px;
     &__project {
-      margin-top: 80px;
+      // margin-top: 80px;
       &-arrow {
-        width: 60%;
+        width: 300px;
       }
     }
     &__wrap-img {

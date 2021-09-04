@@ -12,18 +12,18 @@ import "../stylesheets/layout/Ux.scss";
 
 export const Ux = () => {
 const [currentPage, setCurrentPage] = useState(Math.abs(0))
-const [showViewComplete, setShowViewComplete] = useState(false)
+const [showViewComplete, setShowViewComplete] = useState(true)
 
  function showNextProject(event) {
   if (currentPage <= projectsUx.length-2) {
     setCurrentPage(Math.abs(Number(event.target.id) +1))
-    setShowViewComplete(false)
+    setShowViewComplete(true)
   }
  }
  function showPreviousProject(event) {
   if (currentPage >= 1) {
     setCurrentPage(Math.abs(Number(event.target.id) -1))
-    setShowViewComplete(false)
+    setShowViewComplete(true)
     }
  }
 function showMoreInfo() {

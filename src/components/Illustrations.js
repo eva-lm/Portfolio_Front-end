@@ -8,24 +8,39 @@ import ilus5 from "../images/illus/ilus-5.png";
 import "../stylesheets/layout/Illustrations.scss";
 
 const Illustrations = () => {
-
+  if ("loading" in HTMLImageElement.prototype) {
+    console.log("El navegador soporta `lazy-loading`...");
+  } else {
+    console.log("`lazy-loading` no soportado...");
+  }
   return (
     <section className="illus">
       <div className="illus__wrap-img">
-      <img src={ilus1} alt="ilustracion digital" />
+      <img 
+      loading="lazy"
+      src={ilus1} 
+      alt="ilustracion digital" />
       </div>
       <div className="illus__wrap-img">
-      <img src={ilus2} alt="ilustracion digital" />
-      </div>
+      <img 
+      loading="lazy"
+      src={ilus2} 
+      alt="ilustracion digital" />      </div>
       <div className="illus__wrap-img">
-      <img src={ilus3} alt="ilustracion digital" />
-      </div>
+      <img 
+      loading="lazy"
+      src={ilus3} 
+      alt="ilustracion digital" />      </div>
       <div className="illus__wrap-img">
-      <img src={ilus4} alt="ilustracion digital" />
-      </div>
+      <img 
+      loading="lazy"
+      src={ilus4} 
+      alt="ilustracion digital" />      </div>
       <div className="illus__wrap-img">
-      <img src={ilus5} alt="ilustracion digital" />
-      </div>
+      <img 
+      loading="lazy"
+      src={ilus5} 
+      alt="ilustracion digital" />      </div>
             <Footer /> 
     </section>
   )
