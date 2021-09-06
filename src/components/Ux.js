@@ -12,18 +12,18 @@ import "../stylesheets/layout/Ux.scss";
 
 export const Ux = () => {
 const [currentPage, setCurrentPage] = useState(Math.abs(0))
-const [showViewComplete, setShowViewComplete] = useState(true)
+const [showViewComplete, setShowViewComplete] = useState(false)
 
  function showNextProject(event) {
   if (currentPage <= projectsUx.length-2) {
     setCurrentPage(Math.abs(Number(event.target.id) +1))
-    setShowViewComplete(true)
+    setShowViewComplete(false)
   }
  }
  function showPreviousProject(event) {
   if (currentPage >= 1) {
     setCurrentPage(Math.abs(Number(event.target.id) -1))
-    setShowViewComplete(true)
+    setShowViewComplete(false)
     }
  }
 function showMoreInfo() {
@@ -31,12 +31,12 @@ function showMoreInfo() {
 }
 useEffect(() => {
   window.scroll({
-    // top: document.body.offsetHeight,
-    // left: 0, 
-    // behavior: 'smooth',
+    top: document.body.offsetHeight,
+    left: 0, 
+    behavior: 'smooth',
   }) 
 
-}, [showViewComplete])
+}, [showMoreInfo])
 
 console.log(" projectsUx.length->",  projectsUx.length ,"y currentpage", currentPage)
   return (
