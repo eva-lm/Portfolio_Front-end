@@ -40,7 +40,7 @@ const Footer = (props) => {
           </a>
         </div> */}
         <small className="footer__small-name">
-          Eva Lorenzo Mendieta &copy;2021
+          Eva LM Portfolio &copy;2021
         </small>
       {/* </div> */}
     </footer>
